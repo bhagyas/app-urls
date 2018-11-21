@@ -55,6 +55,10 @@ A compiled list of application urls for iOS, macOS and Android*
 
 == Third-Party Apps & Services
 
+* 1Password - onepassword://search/{query}
+** https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
+* 1Password Browser - ophttp://{url}
+** https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
 * Achievement - Reward Health — achievement://
 * Age of Solitaire : Build City — fb1431194636974533://
 * AMC Theatres — amc://
