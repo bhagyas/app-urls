@@ -105,6 +105,9 @@ A compiled list of application urls for iOS, macOS and Android*
 * Hyperlapse from Instagram — hyperlapse://
 * IMDb Movies & TV — imdb://
 * Instagram — instagram://
+** https://www.instagram.com/developer/mobile-sharing/iphone-hooks/
+* Instagram Stories - instagram-stories://share
+** https://developers.facebook.com/docs/instagram/sharing-to-stories/
 * LastPass Password Manager — lastpass://
 * Launch Center Pro — launch://
 * Litely — litely://
