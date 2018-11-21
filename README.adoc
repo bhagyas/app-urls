@@ -1,6 +1,8 @@
 = AppURLs
 
-A compiled list of application urls for iOS, macOS and Android (empty as of now)
+A compiled list of application urls for iOS, macOS and Android* 
+
+
 
 == Apple Services
 
@@ -128,3 +130,7 @@ A compiled list of application urls for iOS, macOS and Android (empty as of now)
 
 - https://ios.gadgethacks.com/news/always-updated-list-ios-app-url-scheme-names-0184033/
 - https://github.com/phynet/iOS-URL-Schemes
+
+== Footnotes 
+
+*{sp} - (empty as of now)
