@@ -1,0 +1,4 @@
+AppURLs by Bhagya
+
+List of application urls for iOS and macOS.
+
