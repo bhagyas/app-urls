@@ -67,6 +67,8 @@ A compiled list of application urls for iOS, macOS and Android*
 * Cake Browser — cakeslice:// or havecake://
 * Camera+ — cameraplus://
 * Cash App — squarecash:// or cashme://
+* CityMapper - citymapper://directions?startcoord=<lat>,<lon>&startname=<name>&startaddress=<address>&endcoord=<lat>,<lon>&endname=<name>&endaddress=<address>
+** http://blog.citymapper.com/post/59578777734/launching-citymapper-directions-from-apps-and-the
 * Clash of Clans — clashofclans:// or wxfa242abf8cdd841a:// or tencent1105771533:// or tencentlaunch1105771533://
 * DoorDash - Food Delivery — doordash://
 * Draw Something — fb225826214141508paid://
