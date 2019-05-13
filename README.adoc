@@ -34,15 +34,15 @@ A compiled list of application urls for iOS, macOS and Android*
 * Notes — `mobilenotes://`
 * Phone — `tel://phonenumber` or `telprompt://phonenumber`
 * Photos — `photos-redirect://`
-* Podcasts (Add Feed By URL) — `feed://` or `podcast://` (you can also add a feed URL after to auto-populate it)`
-* Podcasts (Browse) — `pcast://` or `itms-pcast://` or `itms-pcasts://` or `podcasts:// or itms-podcast:// or itms-podcasts:// (displays a "can't connect" error)`
+* Podcasts (Add Feed By URL) — `feed://` or `podcast://` (you can also add a feed URL after to auto-populate it)
+* Podcasts (Browse) — `pcast://` or `itms-pcast://` or `itms-pcasts://` or `podcasts://` or `itms-podcast://` or `itms-podcasts://` (displays a "can't connect" error)
 * Reminders — `x-apple-reminder://`
 * Safari — `x-web-search://`
 * Safari (FTP) — `ftp://locationtofileonftpserver`
 * Safari (HTTP) — `http://websiteurl`
 * Safari (HTTPS) — `https://websiteurl`
 * Settings — `App-prefs://`
-* Voice Memos — `voicememos:// (could work in the Notification Center)`
+* Voice Memos — `voicememos://` (could work in the Notification Center)
 * Wallet — `shoebox://`
 * Watch — `itms-watch:// or itms-watchs://`
 * Workflow — `workflow://`
