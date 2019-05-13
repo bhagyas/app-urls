@@ -65,7 +65,7 @@ A compiled list of application urls for iOS, macOS and Android*
 * AmpliFi WiFi — `fb1761190244145574amplifi://`
 * Ancestry — `ancestry://`
 * Anchor — `anchorfm://` or `anchorfmspotify://`
-* Bejeweled Blitz — com.popcap.ios.`BejBlitz://` or `com.popcap.ios.BejBlitz.From.Bej3://` or `com.popcap.ios.BejBlitz.From.Bej2://` or `ea850758://` or `ea47862://`
+* Bejeweled Blitz — `com.popcap.ios.BejBlitz://` or `com.popcap.ios.BejBlitz.From.Bej3://` or `com.popcap.ios.BejBlitz.From.Bej2://` or `ea850758://` or `ea47862://`
 * Brushstroke — `brushstroke://`
 * Cake Browser — `cakeslice://` or `havecake://`
 * Camera+ — `cameraplus://`
