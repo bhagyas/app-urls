@@ -5,136 +5,136 @@ A compiled list of application urls for iOS, macOS and Android*
 
 == Apple Services
 
-* Apple News — applenews:// or applenewss://
-* App Store — itms-apps://itunes.apple.com (add /app/id for specific apps)
-* App Store (Search) — itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
-* App Store (Top Charts) — itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&popId=30
-* Apple TV — videos://
-* Calendar — calshow:// or x-apple-calevent://
-* Calendar (Add Calendar) — webcal://suscribelinkforcalendar
-* Clips — clips://
-* Contacts — contacts://
-* Diagnostics — diagnostics:// or diags://
-* FaceTime (Audio) — facetime-audio://phoneoremail or facetime-audio-prompt://phoneoremail
-* FaceTime (Video) — facetime://phoneoremail or facetime-prompt://phoneoremail
-* Feedback — applefeedback://
-* Find My Friends — findmyfriends:// or fmf1:// or grenada://
-* Find My iPhone — fmip1://
-* Game Center — gamecenter:// or itms-gc:// or itms-gcs:// (pre-iOS 11)
-* GarageBand — garageband://
-* iBooks — ibooks:// or itms-books:// or itms-bookss://
-* iCloud Drive — appleiclouddrive:// (pre-iOS 11)
-* iMovie — imovie://
-* iTunes Remote — remote://
-* iTunes Store — itms:// or itmss://
-* iTunes U — itms-itunesu://
-* Maps — map:// or maps:// or mapitem://
-* Mail — message:// or mailto://emailaddress
-* Messages — sms://phonenumber
-* Notes — mobilenotes://
-* Phone — tel://phonenumber or telprompt://phonenumber
-* Photos — photos-redirect://
-* Podcasts (Add Feed By URL) — feed:// or podcast:// (you can also add a feed URL after to auto-populate it)
-* Podcasts (Browse) — pcast:// or itms-pcast:// or itms-pcasts:// or podcasts:// or itms-podcast:// or itms-podcasts:// (displays a "can't connect" error)
-* Reminders — x-apple-reminder://
-* Safari — x-web-search://
-* Safari (FTP) — ftp://locationtofileonftpserver
-* Safari (HTTP) — http://websiteurl
-* Safari (HTTPS) — https://websiteurl
-* Settings — App-prefs://
-* Voice Memos — voicememos:// (could work in the Notification Center)
-* Wallet — shoebox://
-* Watch — itms-watch:// or itms-watchs://
-* Workflow — workflow://
-* Workflow (Create Workflow) — workflow://create-workflow
-* Workflow (Open Workflow) — workflow://open-workflow?name=name
-* Workflow (Run Workflow) — workflow://run-workflow?name=name&input=input
-* Workflow (Open Gallery) — workflow://gallery
-* Workflow (Search Gallery) — workflow://gallery/search?query=query
+* Apple News — `applenews://` or `applenewss://`
+* App Store — `itms-apps://itunes.apple.com` (add /app/id for specific apps)
+* App Store (Search) — `itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=`
+* App Store (Top Charts) — `itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&popId=30`
+* Apple TV — `videos://`
+* Calendar — `calshow://` or `x-apple-calevent://`
+* Calendar (Add Calendar) — `webcal://suscribelinkforcalendar`
+* Clips — `clips://`
+* Contacts — `contacts://`
+* Diagnostics — `diagnostics://` or `diags://`
+* FaceTime (Audio) — `facetime-audio://phoneoremail` or `facetime-audio-prompt://phoneoremail`
+* FaceTime (Video) — `facetime://phoneoremail` or `facetime-prompt://phoneoremail`
+* Feedback — `applefeedback://`
+* Find My Friends — `findmyfriends://` or `fmf1://` or `grenada://`
+* Find My iPhone — `fmip1://`
+* Game Center — `gamecenter://` or `itms-gc://` or `itms-gcs://` (pre-iOS 11)
+* GarageBand — `garageband://`
+* iBooks — `ibooks://` or `itms-books://` or `itms-bookss://`
+* iCloud Drive — `appleiclouddrive:// (pre-iOS 11)`
+* iMovie — `imovie://`
+* iTunes Remote — `remote://`
+* iTunes Store — `itms://` or `itmss://`
+* iTunes U — `itms-itunesu://`
+* Maps — `map://` or `maps://` or `mapitem://`
+* Mail — `message://` or `mailto://emailaddress`
+* Messages — `sms://phonenumber`
+* Notes — `mobilenotes://`
+* Phone — `tel://phonenumber` or `telprompt://phonenumber`
+* Photos — `photos-redirect://`
+* Podcasts (Add Feed By URL) — `feed://` or `podcast://` (you can also add a feed URL after to auto-populate it)`
+* Podcasts (Browse) — `pcast://` or `itms-pcast://` or `itms-pcasts://` or `podcasts:// or itms-podcast:// or itms-podcasts:// (displays a "can't connect" error)`
+* Reminders — `x-apple-reminder://`
+* Safari — `x-web-search://`
+* Safari (FTP) — `ftp://locationtofileonftpserver`
+* Safari (HTTP) — `http://websiteurl`
+* Safari (HTTPS) — `https://websiteurl`
+* Settings — `App-prefs://`
+* Voice Memos — `voicememos:// (could work in the Notification Center)`
+* Wallet — `shoebox://`
+* Watch — `itms-watch:// or itms-watchs://`
+* Workflow — `workflow://`
+* Workflow (Create Workflow) — `workflow://create-workflow`
+* Workflow (Open Workflow) — `workflow://open-workflow?name=name`
+* Workflow (Run Workflow) — `workflow://run-workflow?name=name&input=input`
+* Workflow (Open Gallery) — `workflow://gallery`
+* Workflow (Search Gallery) — `workflow://gallery/search?query=query`
 
 == Third-Party Apps & Services
 
-* 1Password - onepassword://search/{query}
+* 1Password - `onepassword://search/{query}`
 ** https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
-* 1Password Browser - ophttp://{url}
+* 1Password Browser - `ophttp://{url}`
 ** https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
-* Achievement - Reward Health — achievement://
-* Age of Solitaire : Build City — fb1431194636974533://
-* AMC Theatres — amc://
-* Alpha Omega — fb1414385748867269suffix://
-* AmpliFi WiFi — fb1761190244145574amplifi://
-* Ancestry — ancestry://
-* Anchor — anchorfm:// or anchorfmspotify://
-* Bejeweled Blitz — com.popcap.ios.BejBlitz:// or com.popcap.ios.BejBlitz.From.Bej3:// or com.popcap.ios.BejBlitz.From.Bej2:// or ea850758:// or ea47862://
-* Brushstroke — brushstroke://
-* Cake Browser — cakeslice:// or havecake://
-* Camera+ — cameraplus://
-* Cash App — squarecash:// or cashme://
-* CityMapper — citymapper://directions?startcoord=<lat>,<lon>&startname=<name>&startaddress=<address>&endcoord=<lat>,<lon>&endname=<name>&endaddress=<address>
+* Achievement - Reward Health — `achievement://`
+* Age of Solitaire : Build City — `fb1431194636974533://`
+* AMC Theatres — `amc://`
+* Alpha Omega — `fb1414385748867269suffix://`
+* AmpliFi WiFi — `fb1761190244145574amplifi://`
+* Ancestry — `ancestry://`
+* Anchor — `anchorfm://` or `anchorfmspotify://`
+* Bejeweled Blitz — com.popcap.ios.`BejBlitz://` or `com.popcap.ios.BejBlitz.From.Bej3://` or `com.popcap.ios.BejBlitz.From.Bej2://` or `ea850758://` or `ea47862://`
+* Brushstroke — `brushstroke://`
+* Cake Browser — `cakeslice://` or `havecake://`
+* Camera+ — `cameraplus://`
+* Cash App — `squarecash://` or `cashme://`
+* CityMapper — `citymapper://directions?startcoord=<lat>,<lon>&startname=<name>&startaddress=<address>&endcoord=<lat>,<lon>&endname=<name>&endaddress=<address>`
 ** http://blog.citymapper.com/post/59578777734/launching-citymapper-directions-from-apps-and-the
-* Clash of Clans — clashofclans:// or wxfa242abf8cdd841a:// or tencent1105771533:// or tencentlaunch1105771533://
-* DoorDash - Food Delivery — doordash://
-* Draw Something — fb225826214141508paid://
-* DropBox — dbapi-1://
-* DuckDuckGo Privacy Browser — ddgLaunch:// or ddgQuickLink://
-* Duolingo — duolingo:// or com.duolingo.DuolingoMobile
-* Evernote - evernote://x-callback-url/[action]?[action parameters]&[x-callback parameters]
+* Clash of Clans — `clashofclans://` or `wxfa242abf8cdd841a://` or `tencent1105771533://` or `tencentlaunch1105771533://`
+* DoorDash - Food Delivery — `doordash://`
+* Draw Something — `fb225826214141508paid://`
+* DropBox — `dbapi-1://`
+* DuckDuckGo Privacy Browser — `ddgLaunch://` or `ddgQuickLink://`
+* Duolingo — `duolingo://` or `com.duolingo.DuolingoMobile`
+* Evernote - `evernote://x-callback-url/[action]?[action parameters]&[x-callback parameters]`
 ** https://github.com/evernote/evernote-ios-x-callback-url
-* Facebook — fb://
-* Facetune — facetune://
-* Fandango — fandango://
-* Fitbit — fitbit://
-* Flickr — flickr://
-* Gboard — gboard://
-* Gmail - Email by Google — googlegmail://
-* Goodreads: Book Reviews — goodreads://
-* Google — google://
-* Google Assistant — googleassistant://
-* Google Calendar — googlecalendar://
-* Google Docs — googledocs:// or googledocs-v2:// or com.google.sso.263492796725://
-* Google Chrome — googlechrome://
-* Google Drive — googledrive://
-* Google Earth — googleearth:// or comgoogleearth://
-* Google Keep — comgooglekeep://
-* Google Maps - GPS Navigation — googlemaps://
-* Google Photos — googlephotos://
-* Google Sheets — googlesheets://
-* Google Translate — googletranslate://
-* Google Voice — googlevoice://
-* Halide Camera — halide://
-* HBO GO — hbogo://
-* HBO NOW — hbonow://
-* Hulu: Watch TV Shows & Movies — hulu://
-* Hyperlapse from Instagram — hyperlapse://
-* IMDb Movies & TV — imdb://
-* Instagram — instagram://
+* Facebook — `fb://`
+* Facetune — `facetune://`
+* Fandango — `fandango://`
+* Fitbit — `fitbit://`
+* Flickr — `flickr://`
+* Gboard — `gboard://`
+* Gmail - Email by Google — `googlegmail://`
+* Goodreads: Book Reviews — `goodreads://`
+* Google — `google://`
+* Google Assistant — `googleassistant://`
+* Google Calendar — `googlecalendar://`
+* Google Docs — `googledocs:// or googledocs-v2:// or com.google.sso.263492796725://`
+* Google Chrome — `googlechrome://`
+* Google Drive — `googledrive://`
+* Google Earth — `googleearth:// or comgoogleearth://`
+* Google Keep — `comgooglekeep://`
+* Google Maps - GPS Navigation — `googlemaps://`
+* Google Photos — `googlephotos://`
+* Google Sheets — `googlesheets://`
+* Google Translate — `googletranslate://`
+* Google Voice — `googlevoice://`
+* Halide Camera — `halide://`
+* HBO GO — `hbogo://`
+* HBO NOW — `hbonow://`
+* Hulu: Watch TV Shows & Movies — `hulu://`
+* Hyperlapse from Instagram — `hyperlapse://`
+* IMDb Movies & TV — `imdb://`
+* Instagram — `instagram://`
 ** https://www.instagram.com/developer/mobile-sharing/iphone-hooks/
-* Instagram Stories - instagram-stories://share
+* Instagram Stories - `instagram-stories://share`
 ** https://developers.facebook.com/docs/instagram/sharing-to-stories/
-* LastPass Password Manager — lastpass://
-* Launch Center Pro — launch://
-* Litely — litely://
-* Messenger — fb-messenger://
-* MoviePass — moviepass://
-* Netflix — nflx://
-* PayPal: Mobile Cash — paypal://
-* PhotoScan by Google Photos — photoscan://
-* Pinterest — pinterest://
-* Signal - Private Messenger — sgnl://
-* Skype for iPhone — skype://
-* Snapchat — snapchat://
-* Speedtest by Ookla — speedtest://
-* Spotify Music — spotify://
-* Steller — steller://
-* Tumblr – tumblr://
-* Twitch — twitch://
-* Twitter — twitter://
-* TweetBot for Twitter — tweetbot://
-* Vimeo — vimeo://
-* VSCO — vsco://
-* Waze Navigation & Live Traffic — waze://
-* WhatsApp Messenger — whatsapp://
-* YouTube: Watch, Listen, Stream — youtube://
+* LastPass Password Manager — `lastpass://`
+* Launch Center Pro — `launch://`
+* Litely — `litely://`
+* Messenger — `fb-messenger://`
+* MoviePass — `moviepass://`
+* Netflix — `nflx://`
+* PayPal: Mobile Cash — `paypal://`
+* PhotoScan by Google Photos — `photoscan://`
+* Pinterest — `pinterest://`
+* Signal - Private Messenger — `sgnl://`
+* Skype for iPhone — `skype://`
+* Snapchat — `snapchat://`
+* Speedtest by Ookla — `speedtest://`
+* Spotify Music — `spotify://`
+* Steller — `steller://`
+* Tumblr – `tumblr://`
+* Twitch — `twitch://`
+* Twitter — `twitter://`
+* TweetBot for Twitter — `tweetbot://`
+* Vimeo — `vimeo://`
+* VSCO — `vsco://`
+* Waze Navigation & Live Traffic — `waze://`
+* WhatsApp Messenger — `whatsapp://`
+* YouTube: Watch, Listen, Stream — `youtube://`
 
 == References and Additional resources:
 
