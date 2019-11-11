@@ -136,6 +136,9 @@ A compiled list of application urls for iOS, macOS and Android*
 * WhatsApp Messenger — `whatsapp://`
 * YouTube: Watch, Listen, Stream — `youtube://`
 
+== Utilities
+* List all installed applications and their appUrls: `https://github.com/wujianguo/iOSAppsInfo`
+
 == References and Additional resources:
 
 - https://ios.gadgethacks.com/news/always-updated-list-ios-app-url-scheme-names-0184033/
