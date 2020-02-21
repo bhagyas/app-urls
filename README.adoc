@@ -144,6 +144,7 @@ A compiled list of application urls for iOS, macOS and Android*
 - https://ios.gadgethacks.com/news/always-updated-list-ios-app-url-scheme-names-0184033/
 - https://github.com/phynet/iOS-URL-Schemes
 - http://x-callback-url.com/apps/
+- https://app-talk.com/
 
 == Footnotes 
 
