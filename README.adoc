@@ -203,87 +203,310 @@ A compiled list of application urls for iOS, macOS and Android*
 |===
 == Third-Party Apps & Services
 
-* 1Password - `onepassword://search/{query}`
-** https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
-* 1Password Browser - `ophttp://{url}`
-** https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
-* Achievement - Reward Health — `achievement://`
-* Age of Solitaire : Build City — `fb1431194636974533://`
-* AMC Theatres — `amc://`
-* Alpha Omega — `fb1414385748867269suffix://`
-* AmpliFi WiFi — `fb1761190244145574amplifi://`
-* Ancestry — `ancestry://`
-* Anchor — `anchorfm://` or `anchorfmspotify://`
-* Bejeweled Blitz — `com.popcap.ios.BejBlitz://` or `com.popcap.ios.BejBlitz.From.Bej3://` or `com.popcap.ios.BejBlitz.From.Bej2://` or `ea850758://` or `ea47862://`
-* Brushstroke — `brushstroke://`
-* Cake Browser — `cakeslice://` or `havecake://`
-* Camera+ — `cameraplus://`
-* Cash App — `squarecash://` or `cashme://`
-* CityMapper — `citymapper://directions?startcoord=<lat>,<lon>&startname=<name>&startaddress=<address>&endcoord=<lat>,<lon>&endname=<name>&endaddress=<address>`
-** http://blog.citymapper.com/post/59578777734/launching-citymapper-directions-from-apps-and-the
-* Clash of Clans — `clashofclans://` or `wxfa242abf8cdd841a://` or `tencent1105771533://` or `tencentlaunch1105771533://`
-* DoorDash - Food Delivery — `doordash://`
-* Draw Something — `fb225826214141508paid://`
-* DropBox — `dbapi-1://`
-* DuckDuckGo Privacy Browser — `ddgLaunch://` or `ddgQuickLink://`
-* Duolingo — `duolingo://` or `com.duolingo.DuolingoMobile`
-* Evernote - `evernote://x-callback-url/[action]?[action parameters]&[x-callback parameters]`
-** https://github.com/evernote/evernote-ios-x-callback-url
-* Facebook — `fb://`
-* Facetune — `facetune://`
-* Fandango — `fandango://`
-* Fitbit — `fitbit://`
-* Flickr — `flickr://`
-* Gboard — `gboard://`
-* Gmail - Email by Google — `googlegmail://`
-* Goodreads: Book Reviews — `goodreads://`
-* Google — `google://`
-* Google Assistant — `googleassistant://`
-* Google Calendar — `googlecalendar://`
-* Google Docs — `googledocs:// or googledocs-v2:// or com.google.sso.263492796725://`
-* Google Chrome — `googlechrome://`
-* Google Drive — `googledrive://`
-* Google Earth — `googleearth:// or comgoogleearth://`
-* Google Keep — `comgooglekeep://`
-* Google Maps - GPS Navigation — `googlemaps://`
-* Google Photos — `googlephotos://`
-* Google Sheets — `googlesheets://`
-* Google Translate — `googletranslate://`
-* Google Voice — `googlevoice://`
-* Halide Camera — `halide://`
-* HBO GO — `hbogo://`
-* HBO NOW — `hbonow://`
-* Hulu: Watch TV Shows & Movies — `hulu://`
-* Hyperlapse from Instagram — `hyperlapse://`
-* IMDb Movies & TV — `imdb://`
-* Instagram — `instagram://`
-** https://www.instagram.com/developer/mobile-sharing/iphone-hooks/
-* Instagram Stories - `instagram-stories://share`
-** https://developers.facebook.com/docs/instagram/sharing-to-stories/
-* LastPass Password Manager — `lastpass://`
-* Launch Center Pro — `launch://`
-* Litely — `litely://`
-* Messenger — `fb-messenger://`
-* MoviePass — `moviepass://`
-* Netflix — `nflx://`
-* PayPal: Mobile Cash — `paypal://`
-* PhotoScan by Google Photos — `photoscan://`
-* Pinterest — `pinterest://`
-* Signal - Private Messenger — `sgnl://`
-* Skype for iPhone — `skype://`
-* Snapchat — `snapchat://`
-* Speedtest by Ookla — `speedtest://`
-* Spotify Music — `spotify://`
-* Steller — `steller://`
-* Tumblr – `tumblr://`
-* Twitch — `twitch://`
-* Twitter — `twitter://`
-* TweetBot for Twitter — `tweetbot://`
-* Vimeo — `vimeo://`
-* VSCO — `vsco://`
-* Waze Navigation & Live Traffic — `waze://`
-* WhatsApp Messenger — `whatsapp://`
-* YouTube: Watch, Listen, Stream — `youtube://`
+|===
+|Application/Service |AppURL | Notes
+
+|1Password 
+|`onepassword://search/{query}`
+|https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
+
+|1Password Browser 
+|`ophttp://{url}`
+|https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md
+
+|Achievement - Reward Health 
+|`achievement://`
+|
+
+|Age of Solitaire : Build City 
+|`fb1431194636974533://`
+|
+
+|AMC Theatres 
+|`amc://`
+|
+
+|Alpha Omega 
+|`fb1414385748867269suffix://`
+|
+
+|AmpliFi WiFi 
+|`fb1761190244145574amplifi://`
+|
+
+|Ancestry 
+|`ancestry://`
+|
+
+|Anchor 
+|`anchorfm://` or `anchorfmspotify://`
+|
+
+|Bejeweled Blitz 
+|`com.popcap.ios.BejBlitz://` or `com.popcap.ios.BejBlitz.From.Bej3://` or `com.popcap.ios.BejBlitz.From.Bej2://` or `ea850758://` or `ea47862://`
+|
+
+|Brushstroke 
+|`brushstroke://`
+|
+
+|Cake Browser 
+|`cakeslice://` or `havecake://`
+|
+
+|Camera+ 
+|`cameraplus://`
+|
+
+|Cash App 
+|`squarecash://` or `cashme://`
+|
+
+|CityMapper 
+|`citymapper://directions?startcoord=<lat>,<lon>&startname=<name>&startaddress=<address>&endcoord=<lat>,<lon>&endname=<name>&endaddress=<address>`
+|http://blog.citymapper.com/post/59578777734/launching-citymapper-directions-from-apps-and-the
+
+|Clash of Clans 
+|`clashofclans://` or `wxfa242abf8cdd841a://` or `tencent1105771533://` or `tencentlaunch1105771533://`
+|
+
+|DoorDash 
+|Food Delivery 
+|`doordash://`
+
+|Draw Something 
+|`fb225826214141508paid://`
+|
+
+|DropBox 
+|`dbapi-1://`
+|
+
+|DuckDuckGo Privacy Browser 
+|`ddgLaunch://` or `ddgQuickLink://`
+|
+
+|Duolingo 
+|`duolingo://` or `com.duolingo.DuolingoMobile`
+|
+
+|Evernote 
+|`evernote://x-callback-url/[action]?[action parameters]&[x-callback parameters]`
+|https://github.com/evernote/evernote-ios-x-callback-url
+
+|Facebook 
+|`fb://`
+|
+
+|Facetune 
+|`facetune://`
+|
+
+|Fandango 
+|`fandango://`
+|
+
+|Fitbit 
+|`fitbit://`
+|
+
+|Flickr 
+|`flickr://`
+|
+
+|Gboard 
+|`gboard://`
+|
+
+|Gmail - Email by Google 
+|`googlegmail://`
+|
+
+|Goodreads: Book Reviews 
+|`goodreads://`
+|
+
+|Google 
+|`google://`
+|
+
+|Google Assistant 
+|`googleassistant://`
+|
+
+|Google Calendar 
+|`googlecalendar://`
+|
+
+|Google Docs 
+|`googledocs:// or googledocs-v2:// or com.google.sso.263492796725://`
+|
+
+|Google Chrome 
+|`googlechrome://`
+|
+
+|Google Drive 
+|`googledrive://`
+|
+
+|Google Earth 
+|`googleearth:// or comgoogleearth://`
+|
+
+|Google Keep 
+|`comgooglekeep://`
+|
+
+|Google Maps - GPS Navigation 
+|`googlemaps://`
+|
+
+|Google Photos 
+|`googlephotos://`
+|
+
+|Google Sheets 
+|`googlesheets://`
+|
+
+|Google Translate 
+|`googletranslate://`
+|
+
+|Google Voice 
+|`googlevoice://`
+|
+
+|Halide Camera 
+|`halide://`
+|
+
+|HBO GO 
+|`hbogo://`
+|
+
+|HBO NOW 
+|`hbonow://`
+|
+
+|Hulu: Watch TV Shows & Movies 
+|`hulu://`
+|
+
+|Hyperlapse from Instagram 
+|`hyperlapse://`
+|
+
+|IMDb Movies & TV 
+|`imdb://`
+|
+
+|Instagram 
+|`instagram://`
+|https://www.instagram.com/developer/mobile-sharing/iphone-hooks/
+
+|Instagram Stories 
+|`instagram-stories://share`
+|https://developers.facebook.com/docs/instagram/sharing-to-stories/
+
+|LastPass Password Manager 
+|`lastpass://`
+|
+
+|Launch Center Pro 
+|`launch://`
+|
+
+|Litely 
+|`litely://`
+|
+
+|Messenger 
+|`fb-messenger://`
+|
+
+|MoviePass 
+|`moviepass://`
+|
+
+|Netflix 
+|`nflx://`
+|
+
+|PayPal: Mobile Cash 
+|`paypal://`
+|
+
+|PhotoScan by Google Photos 
+|`photoscan://`
+|
+
+|Pinterest 
+|`pinterest://`
+|
+
+|Signal - Private Messenger 
+|`sgnl://`
+|
+
+|Skype for iPhone 
+|`skype://`
+|
+
+|Snapchat 
+|`snapchat://`
+|
+
+|Speedtest by Ookla 
+|`speedtest://`
+|
+
+|Spotify Music 
+|`spotify://`
+|
+
+|Steller 
+|`steller://`
+|
+
+|Tumblr
+|`tumblr://`
+|
+
+|Twitch 
+|`twitch://`
+|
+
+|Twitter 
+|`twitter://`
+|
+
+|TweetBot for Twitter 
+|`tweetbot://`
+|
+
+|Vimeo 
+|`vimeo://`
+|
+
+|VSCO 
+|`vsco://`
+|
+
+|Waze Navigation & Live Traffic 
+|`waze://`
+|
+
+|WhatsApp Messenger 
+|`whatsapp://`
+|
+
+|YouTube: Watch, Listen, Stream 
+|`youtube://`
+|
+
+|===
 
 == Utilities
 * List all installed applications and their appUrls: `https://github.com/wujianguo/iOSAppsInfo`
