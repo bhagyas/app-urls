@@ -5,53 +5,202 @@ A compiled list of application urls for iOS, macOS and Android*
 
 == Apple Services
 
-* Apple News — `applenews://` or `applenewss://`
-* App Store — `itms-apps://itunes.apple.com` (add /app/id for specific apps)
-* App Store (Search) — `itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=`
-* App Store (Top Charts) — `itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&popId=30`
-* Apple TV — `videos://`
-* Calendar — `calshow://` or `x-apple-calevent://`
-* Calendar (Add Calendar) — `webcal://suscribelinkforcalendar`
-* Clips — `clips://`
-* Contacts — `contacts://`
-* Diagnostics — `diagnostics://` or `diags://`
-* FaceTime (Audio) — `facetime-audio://phoneoremail` or `facetime-audio-prompt://phoneoremail`
-* FaceTime (Video) — `facetime://phoneoremail` or `facetime-prompt://phoneoremail`
-* Feedback — `applefeedback://`
-* Find My Friends — `findmyfriends://` or `fmf1://` or `grenada://`
-* Find My iPhone — `fmip1://`
-* Game Center — `gamecenter://` or `itms-gc://` or `itms-gcs://` (pre-iOS 11)
-* GarageBand — `garageband://`
-* iBooks — `ibooks://` or `itms-books://` or `itms-bookss://`
-* iCloud Drive — `appleiclouddrive:// (pre-iOS 11)`
-* iMovie — `imovie://`
-* iTunes Remote — `remote://`
-* iTunes Store — `itms://` or `itmss://`
-* iTunes U — `itms-itunesu://`
-* Maps — `map://` or `maps://` or `mapitem://`
-* Mail — `message://` or `mailto://emailaddress`
-* Messages — `sms://phonenumber`
-* Notes — `mobilenotes://`
-* Phone — `tel://phonenumber` or `telprompt://phonenumber`
-* Photos — `photos-redirect://`
-* Podcasts (Add Feed By URL) — `feed://` or `podcast://` (you can also add a feed URL after to auto-populate it)
-* Podcasts (Browse) — `pcast://` or `itms-pcast://` or `itms-pcasts://` or `podcasts://` or `itms-podcast://` or `itms-podcasts://` (displays a "can't connect" error)
-* Reminders — `x-apple-reminder://`
-* Safari — `x-web-search://`
-* Safari (FTP) — `ftp://locationtofileonftpserver`
-* Safari (HTTP) — `http://websiteurl`
-* Safari (HTTPS) — `https://websiteurl`
-* Settings — `App-prefs://`
-* Voice Memos — `voicememos://` (could work in the Notification Center)
-* Wallet — `shoebox://`
-* Watch — `itms-watch:// or itms-watchs://`
-* Workflow — `workflow://`
-* Workflow (Create Workflow) — `workflow://create-workflow`
-* Workflow (Open Workflow) — `workflow://open-workflow?name=name`
-* Workflow (Run Workflow) — `workflow://run-workflow?name=name&input=input`
-* Workflow (Open Gallery) — `workflow://gallery`
-* Workflow (Search Gallery) — `workflow://gallery/search?query=query`
+|===
+|Application/Service |AppURL | Notes
 
+|Apple News
+|`applenews://` or `applenewss://`
+|
+
+|App Store
+|`itms-apps://itunes.apple.com`
+| 
+
+
+|Apple News 
+|`applenews://` or `applenewss://`
+|
+
+|App Store 
+|`itms-apps://itunes.apple.com` (add /app/id for specific apps)
+|
+
+|App Store (Search) 
+|`itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=`
+|
+
+|App Store (Top Charts) 
+|`itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&popId=30`
+|
+
+|Apple TV 
+|`videos://`
+|
+
+|Calendar 
+|`calshow://` or `x-apple-calevent://`
+|
+
+|Calendar (Add Calendar) 
+|`webcal://suscribelinkforcalendar`
+|
+
+|Clips 
+|`clips://`
+|
+
+|Contacts 
+|`contacts://`
+|
+
+|Diagnostics 
+|`diagnostics://` or `diags://`
+|
+
+|FaceTime (Audio) 
+|`facetime-audio://phoneoremail` or `facetime-audio-prompt://phoneoremail`
+|
+
+|FaceTime (Video) 
+|`facetime://phoneoremail` or `facetime-prompt://phoneoremail`
+|
+
+|Feedback 
+|`applefeedback://`
+|
+
+|Find My Friends 
+|`findmyfriends://` or `fmf1://` or `grenada://`
+|
+
+|Find My iPhone 
+|`fmip1://`
+|
+
+|Game Center 
+|`gamecenter://` or `itms-gc://` or `itms-gcs://` (pre-iOS 11)
+|
+
+|GarageBand 
+|`garageband://`
+|
+
+|iBooks 
+|`ibooks://` or `itms-books://` or `itms-bookss://`
+|
+
+|iCloud Drive 
+|`appleiclouddrive:// (pre-iOS 11)`
+|
+
+|iMovie 
+|`imovie://`
+|
+
+|iTunes Remote 
+|`remote://`
+|
+
+|iTunes Store 
+|`itms://` or `itmss://`
+|
+
+|iTunes U 
+|`itms-itunesu://`
+|
+
+|Maps 
+|`map://` or `maps://` or `mapitem://`
+|
+
+|Mail 
+|`message://` or `mailto://emailaddress`
+|
+
+|Messages 
+|`sms://phonenumber`
+|
+
+|Notes 
+|`mobilenotes://`
+|
+
+|Phone 
+|`tel://phonenumber` or `telprompt://phonenumber`
+|
+
+|Photos 
+|`photos-redirect://`
+|
+
+|Podcasts (Add Feed By URL) 
+|`feed://` or `podcast://` (you can also add a feed URL after to auto-populate it)
+|
+
+|Podcasts (Browse) 
+|`pcast://` or `itms-pcast://` or `itms-pcasts://` or `podcasts://` or `itms-podcast://` or `itms-podcasts://` (displays a "can't connect" error)
+|
+
+|Reminders 
+|`x-apple-reminder://`
+|
+
+|Safari 
+|`x-web-search://`
+|
+
+|Safari (FTP) 
+|`ftp://locationtofileonftpserver`
+|
+
+|Safari (HTTP) 
+|`http://websiteurl`
+|
+
+|Safari (HTTPS) 
+|`https://websiteurl`
+|
+
+|Settings 
+|`App-prefs://`
+|
+
+|Voice Memos 
+|`voicememos://` (could work in the Notification Center)
+|
+
+|Wallet 
+|`shoebox://`
+|
+
+|Watch 
+|`itms-watch:// or itms-watchs://`
+|
+
+|Workflow 
+|`workflow://`
+|
+
+|Workflow (Create Workflow) 
+|`workflow://create-workflow`
+|
+
+|Workflow (Open Workflow) 
+|`workflow://open-workflow?name=name`
+|
+
+|Workflow (Run Workflow) 
+|`workflow://run-workflow?name=name&input=input`
+|
+
+|Workflow (Open Gallery) 
+|`workflow://gallery`
+|
+
+|Workflow (Search Gallery) 
+|`workflow://gallery/search?query=query`
+|
+|===
 == Third-Party Apps & Services
 
 * 1Password - `onepassword://search/{query}`
