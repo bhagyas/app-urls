@@ -270,9 +270,9 @@ A compiled list of application urls for iOS, macOS and Android*
 |`clashofclans://` or `wxfa242abf8cdd841a://` or `tencent1105771533://` or `tencentlaunch1105771533://`
 |
 
-|DoorDash 
-|Food Delivery 
+|DoorDash - Food Delivery 
 |`doordash://`
+|
 
 |Draw Something 
 |`fb225826214141508paid://`
