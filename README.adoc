@@ -1,6 +1,6 @@
 = AppURLs
 
-A compiled list of application urls for iOS, macOS and Android* 
+A long list of application urls for iOS, macOS and Android* 
 
 
 == Apple Services
