@@ -2,6 +2,7 @@
 
 A long list of application urls for iOS, macOS and Android* 
 
+Feel free to make pull requests or file an issue with new app URLs that you want to contribute.
 
 == Apple Services
 
