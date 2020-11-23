@@ -166,6 +166,10 @@ Feel free to make pull requests or file an issue with new app URLs that you want
 |`App-prefs://`
 |
 
+|Shortcuts 
+|`shortcuts://`
+|
+
 |Voice Memos 
 |`voicememos://` (could work in the Notification Center)
 |
@@ -319,6 +323,10 @@ Feel free to make pull requests or file an issue with new app URLs that you want
 |`gboard://`
 |
 
+|Github 
+|`github://`
+|
+
 |Gmail - Email by Google 
 |`googlegmail://`
 |
@@ -435,6 +443,10 @@ Feel free to make pull requests or file an issue with new app URLs that you want
 |`nflx://`
 |
 
+|Overcast 
+|`overcast://`
+|
+
 |PayPal: Mobile Cash 
 |`paypal://`
 |
@@ -445,6 +457,14 @@ Feel free to make pull requests or file an issue with new app URLs that you want
 
 |Pinterest 
 |`pinterest://`
+|
+
+|Plex 
+|`plex://`
+|
+
+|Pyto 
+|`pyto-run://`
 |
 
 |Signal - Private Messenger 
@@ -489,6 +509,10 @@ Feel free to make pull requests or file an issue with new app URLs that you want
 
 |Vimeo 
 |`vimeo://`
+|
+
+|VLC 
+|`vlc://`
 |
 
 |VSCO 
