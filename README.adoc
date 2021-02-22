@@ -1,8 +1,12 @@
 = AppURLs
-
+:toc:
+:toc-placement!:
 A long list of application urls for iOS, macOS and Android* 
 
 Feel free to make pull requests or file an issue with new app URLs that you want to contribute.
+
+toc::[]
+
 
 == Apple Services
 
@@ -533,7 +537,7 @@ Feel free to make pull requests or file an issue with new app URLs that you want
 
 |===
 
-== Preferences
+== Settings.app (Preferences)
 
 These links point to specific sections of the `Settings.app`
 
@@ -990,16 +994,15 @@ These links point to specific sections of the `Settings.app`
 |===
 
 
-== Utilities
+== AppURL Utilities
 * List all installed applications and their appUrls: `https://github.com/wujianguo/iOSAppsInfo`
 
-== References and Additional resources:
+== References and Additional resources
 
 - https://ios.gadgethacks.com/news/always-updated-list-ios-app-url-scheme-names-0184033/
 - https://github.com/phynet/iOS-URL-Schemes
 - http://x-callback-url.com/apps/
 - https://app-talk.com/
 
-== Footnotes 
 
 *{sp} - (empty as of now)
