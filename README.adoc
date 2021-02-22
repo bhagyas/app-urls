@@ -533,6 +533,463 @@ Feel free to make pull requests or file an issue with new app URLs that you want
 
 |===
 
+== Preferences
+
+These links point to specific sections of the `Settings.app`
+
+|===
+| Description | AppURL
+
+| Open | `App-prefs://`       `App-prefs:`       `prefs://` `prefs:`       `prefs:root`
+
+|Apple Pencil (iPad-only)
+|`prefs:root=Pencil`
+
+|App Store
+|`prefs:root=STORE`
+
+|App Store - App Downloads
+|`prefs:root=STORE&path=App%20Downloads`
+
+|App Store - Video Autoplay
+|`prefs:root=STORE&path=Video%20Autoplay`
+
+|Battery
+|`prefs:root=BATTERY_USAGE`
+
+|Battery - Battery Health (iPhone-only)
+|`prefs:root=BATTERY_USAGE&path=BATTERY_HEALTH`
+
+|Bluetooth
+|`prefs:root=Bluetooth`
+
+|Books
+|`prefs:root=IBOOKS`
+
+|Calendar
+|`prefs:root=CALENDAR`
+
+|Calendar - Alternate Calendars
+|`prefs:root=CALENDAR&path=Alternate%20Calendars`
+
+|Calendar - Default Alert Times
+|`prefs:root=CALENDAR&path=Default%20Alert%20Times`
+
+|Calendar - Default Calendar
+|`prefs:root=CALENDAR&path=Default%20Calendar`
+
+|Calendar - Sync
+|`prefs:root=CALENDAR&path=Sync`
+
+|Camera
+|`prefs:root=CAMERA`
+
+|Camera - Record Slo-mo
+|`prefs:root=CAMERA&path=Record%20Slo-mo`
+
+|Camera - Record Video
+|`prefs:root=CAMERA&path=Record%20Video`
+
+|Cellular
+|`prefs:root=MOBILE_DATA_SETTINGS_ID`
+
+|Cellular - Cellular Data Options
+|`prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+
+|Cellular - Low Data Mode
+|`prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+
+|Cellular - App Data Usage
+|`prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
+
+|Compass
+|`prefs:root=COMPASS`
+
+|Contacts
+|`prefs:root=CONTACTS`
+
+|Control Center
+|`prefs:root=ControlCenter`
+
+|Control Center - Customize Controls
+|`prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+
+|Display
+|`prefs:root=DISPLAY`
+
+|Display - Auto Lock
+|`prefs:root=DISPLAY&path=AUTOLOCK`
+
+|Display - Text Size
+|`prefs:root=DISPLAY&path=TEXT_SIZE`
+
+|Do Not Disturb
+|`prefs:root=DO_NOT_DISTURB`
+
+|Do Not Disturb - Allow Calls From
+|`prefs:root=DO_NOT_DISTURB&path=Allow%20Calls%20From`
+
+|Emergency SOS
+|`prefs:root=EMERGENCY_SOS`
+
+|Exposure Notifications
+|`prefs:root=EXPOSURE_NOTIFICATION`
+
+|Face ID
+|`prefs:root=PASSCODE`
+
+|FaceTime
+|`prefs:root=FACETIME`
+
+|Game Center
+|`prefs:root=GAMECENTER`
+
+|General
+|`prefs:root=General`
+
+|General - About
+|`prefs:root=General&path=About`
+
+|General - About - Certificate Trust Settings
+|`prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+
+|General - AirDrop
+|`prefs:root=General&path=AIRDROP_LINK`
+
+|General - AirPlay & Handoff
+|`prefs:root=General&path=CONTINUITY_SPEC`
+
+|General - AirPlay & Handoff - Handoff
+|`prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+
+|General - AirPlay & Handoff - Automatically AirPlay to TVs
+|`prefs:root=General&path=CONTINUITY_SPEC#AIRPLAY_TO_TV`
+
+|General - AirPlay & Handoff - Transfer to HomePod
+|`prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+
+|General - Background App Refresh
+|`prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+
+|General - CarPlay
+|`prefs:root=General&path=CARPLAY`
+
+|General - Date & Time
+|`prefs:root=General&path=DATE_AND_TIME`
+
+|General - Dictionary
+|`prefs:root=General&path=DICTIONARY`
+
+|General - Home Button
+|`prefs:root=General&path=HOME_BUTTON`
+
+|General - iPhone Storage
+|`prefs:root=General&path=STORAGE_MGMT#MANAGE`
+
+|General - iPhone Storage - Offload Unused Apps
+|`prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+
+|General - Keyboard
+|`prefs:root=General&path=Keyboard`
+
+|General - Keyboard - Keyboards
+|`prefs:root=General&path=Keyboard/KEYBOARDS`
+
+|General - Keyboard - One Handed Keyboard
+|`prefs:root=General&path=Keyboard/ReachableKeyboard`
+|General - Keyboard - Text Replacement
+|`prefs:root=General&path=Keyboard/USER_DICTIONARY`
+|General - Language & Region
+|`prefs:root=General&path=INTERNATIONAL`
+|General - Legal & Regulatory
+|`prefs:root=General&path=LEGAL_AND_REGULATORY`
+|General - Multitasking (iPad-only)
+|`prefs:root=General&path=MULTITASKING`
+|General - Multitasking (iPad-only)
+|`prefs:root=General#Multitasking_Gesture_Switch`
+|General - Picture in Picture
+|`prefs:root=General&path=PiP_SPEC`
+|General - Profiles
+|`prefs:root=General&path=ManagedConfigurationList`
+|General - Regulatory
+|`prefs:root=General&path=REGULATORY`
+|General - Reset
+|`prefs:root=General&path=Reset`
+|General - Reset - Reset All Settings
+|`prefs:root=General&path=Reset#settingsErase`
+|General - Reset - Erase All Content and Settings
+|`prefs:root=General&path=Reset#fullErase`
+|General - Reset - Reset Network Settings
+|`prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+|General - Reset - Reset All Cellular Plans
+|`prefs:root=General&path=Reset#cellularErase`
+|General - Reset - Subscriber Services
+|`prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+|General - Reset - Reset Keyboard Dictionary
+|`prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+|General - Reset - Reset Home Screen Layout
+|`prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+|General - Reset - Reset Location & Privacy
+|`prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+|General - Shut Down
+|`prefs:root=General#SHUTDOWN_LABEL`
+|General - Software Update
+|`prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+|General - Trackpad & Mouse (iPad-only)
+|`prefs:root=General&path=POINTERS`
+|General - TV Out
+|`prefs:root=General&path=TV_OUT`
+|General - Use Side Switch To
+|`prefs:root=General#Rotation_Switch_Action_Group`
+|General - VPN
+|`prefs:root=General&path=VPN`
+|General (Unknown Path)
+|`prefs:root=General&path=NFC_LINK`
+
+
+|Health
+|`prefs:root=HEALTH`
+
+|iCloud
+|`prefs:root=CASTLE`
+
+|iCloud Backup
+|`prefs:root=CASTLE&path=BACKUP`
+
+|Mail
+|`prefs:root=MAIL`
+
+|Mail - Blocked
+|`prefs:root=MAIL&path=Blocked`
+|Mail - Blocked Sender Options
+|`prefs:root=MAIL&path=Blocked%20Sender%20Options`
+|Mail - Default Account
+|`prefs:root=MAIL&path=Default%20Account`
+|Mail - Include Attachments with Replies
+|`prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+|Mail - Increase Quote Level
+|`prefs:root=MAIL&path=Increase%20Quote%20Level`
+|Mail - Mark Addresses
+|`prefs:root=MAIL&path=Mark%20Addresses`
+|Mail - Muted Thread Action
+|`prefs:root=MAIL&path=Muted%20Thread%20Action`
+|Mail - Notifications
+|`prefs:root=MAIL&path=NOTIFICATIONS`
+|Mail - Preview
+|`prefs:root=MAIL&path=Preview`
+|Mail - Signature
+|`prefs:root=MAIL&path=Signature`
+|Mail - Swipe Options
+|`prefs:root=MAIL&path=Swipe%20Options`
+
+|Maps
+|`prefs:root=MAPS`
+|Maps - Driving & Navigation
+|`prefs:root=MAPS&path=Driving%20%26%20Navigation`
+|Maps - Transit
+|`prefs:root=MAPS&path=Transit`
+
+|Measure
+|`prefs:root=MEASURE`
+
+|Messages
+|`prefs:root=MESSAGES`
+
+|Music
+|`prefs:root=MUSIC`
+|Music - Cellular Data
+|`prefs:root=MUSIC&path=com.apple.Music:CellularData`
+|Music - EQ
+|`prefs:root=MUSIC&path=com.apple.Music:EQ`
+|Music - Optimize Storage
+|`prefs:root=MUSIC&path=com.apple.Music:OptimizeStorage`
+|Music - Volume Limit
+|`prefs:root=MUSIC&path=com.apple.Music:VolumeLimit`
+
+|News
+|`prefs:root=NEWS`
+
+|Notes
+|`prefs:root=NOTES`
+|Notes - Access Notes from Lock Screen
+|`prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+|Notes - Default Account
+|`prefs:root=NOTES&path=Default%20Account`
+|Notes - Lines & Grids
+|`prefs:root=NOTES&path=Lines%20%26%20Grids`
+|Notes - New Notes Start With
+|`prefs:root=NOTES&path=New%20Notes%20Start%20With`
+|Notes - Password
+|`prefs:root=NOTES&path=Password`
+|Notes - Sort Checked Items
+|`prefs:root=NOTES&path=Sort%20Checked%20Items`
+|Notes - Sort Notes By
+|`prefs:root=NOTES&path=Sort%20Notes%20By`
+
+|Notifications
+|`prefs:root=NOTIFICATIONS_ID`
+|Notifications - Siri Suggestions
+|`prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions`
+
+|Passwords & Accounts
+|`prefs:root=ACCOUNTS_AND_PASSWORDS`
+|Passwords & Accounts - Fetch New Data
+|`prefs:root=ACCOUNTS_AND_PASSWORDS&path=FETCH_NEW_DATA`
+|Passwords & Accounts - Add Account
+|`prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT`
+
+|Personal Hotspot
+|`prefs:root=INTERNET_TETHERING`
+|Personal Hotspot - Family Sharing
+|`prefs:root=INTERNET_TETHERING&path=Family%20Sharing`
+|Personal Hotspot - Wi-Fi Password
+|`prefs:root=INTERNET_TETHERING&path=Wi-Fi%20Password`
+
+|Phone
+|`prefs:root=Phone`
+
+|Photos
+|`prefs:root=Photos`
+
+|Privacy
+|`prefs:root=Privacy`
+|Privacy - Contacts
+|`prefs:root=Privacy&path=CONTACTS`
+|Privacy - Calendars
+|`prefs:root=Privacy&path=CALENDARS`
+|Privacy - Camera
+|`prefs:root=Privacy&path=CAMERA`
+|Privacy - Location Services
+|`prefs:root=Privacy&path=LOCATION`
+|Privacy - Microphone
+|`prefs:root=Privacy&path=MICROPHONE`
+|Privacy - Motion
+|`prefs:root=Privacy&path=MOTION`
+|Privacy - Photos
+|`prefs:root=Privacy&path=PHOTOS`
+|Privacy - Reminders
+|`prefs:root=Privacy&path=REMINDERS`
+|Privacy - Speech Recognition
+|`prefs:root=Privacy&path=SPEECH_RECOGNITION`
+
+|Reminders
+|`prefs:root=REMINDERS`
+|Reminders - Default List
+|`prefs:root=REMINDERS&path=DEFAULT_LIST`
+
+|Ringtone
+|`prefs:root=Sounds&path=Ringtone`
+
+|Safari
+|`prefs:root=SAFARI`
+|Safari - Camera
+|`prefs:root=SAFARI&path=Camera`
+|Safari - Close Tabs
+|`prefs:root=SAFARI&path=Close%20Tabs`
+|Safari - Content Blockers
+|`prefs:root=SAFARI&path=Content%20Blockers`
+|Safari - Downloads
+|`prefs:root=SAFARI&path=DOWNLOADS`
+|Safari - Location
+|`prefs:root=SAFARI&path=Location`
+|Safari - Microphone
+|`prefs:root=SAFARI&path=Microphone`
+|Safari - Page Zoom
+|`prefs:root=SAFARI&path=Page%20Zoom`
+|Safari - Reader
+|`prefs:root=SAFARI&path=Reader`
+|Safari - Request Desktop Website
+|`prefs:root=SAFARI&path=Request%20Desktop%20Website`
+
+|Screen Time
+|`prefs:root=SCREEN_TIME`
+|Screen Time - Always Allowed
+|`prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+|Screen Time - App Limits
+|`prefs:root=SCREEN_TIME&path=APP_LIMITS`
+|Screen Time - Communication Limits
+|`prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+|Screen Time - Content & Privacy Restrictions
+|`prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+|Screen Time - Downtime
+|`prefs:root=SCREEN_TIME&path=DOWNTIME`
+
+|Shortcuts
+|`prefs:root=SHORTCUTS`
+|Shortcuts - iCloud Sync
+|`prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+|Shortcuts - iCloud Sync
+|`prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+|Shortcuts - Legal Notices
+|`prefs:root=SHORTCUTS&path=Legal%20Notices`
+
+|Siri & Search
+|`prefs:root=SIRI`
+|Siri & Search - Allow Siri When Locked
+|`prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+|Siri & Search - Language
+|`prefs:root=SIRI&path=LANGUAGE_ID`
+|Siri & Search - Siri Voice
+|`prefs:root=SIRI&path=VOICE_ID`
+|Siri & Search - Siri Responses
+|`prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+|Siri & Search - My Information
+|`prefs:root=SIRI&path=MY_INFO`
+|Siri & Search - Suggestions in Search
+|`prefs:root=SIRI#Suggestions%20in%20Search`
+|Siri & Search - Suggestions while Searching
+|`prefs:root=SIRI#Suggestions%20while%20Searching`
+|Siri & Search - Suggestions in Look Up
+|`prefs:root=SIRI#Suggestions%20in%20Look%20Up`
+|Siri & Search - Suggestions on Lock Screen
+|`prefs:root=SIRI#Suggestions%20on%20Lock%20Screen`
+|Siri & Search - Suggestions on Home Screen
+|`prefs:root=SIRI#Suggestions%20on%20Home%20Screen`
+|Siri & Search - Suggestions when Sharing
+|`prefs:root=SIRI#Suggestions%20when%20Sharing`
+
+|Sounds
+|`prefs:root=Sounds`
+
+|Stocks
+|`prefs:root=STOCKS`
+|Stocks - Privacy
+|`prefs:root=STOCKS#Privacy`
+|Stocks - Reset Identifier
+|`prefs:root=STOCKS#reset_identifier`
+
+|TV
+|`prefs:root=TVAPP`
+|TV - Use Cellular Data
+|`prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+|TV - Playback Quality
+|`prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+|TV - Video Definition
+|`prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+|TV - Home Sharing
+|`prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+
+|TV Provider
+|`prefs-tvprovider://`
+
+|Voice Memos
+|`prefs:root=VOICE_MEMOS`
+
+|VPN
+|`prefs:root=General&path=VPN`
+
+|Wallet
+|`prefs:root=PASSBOOK`
+
+|Wallpaper
+|`prefs:root=Wallpaper`
+
+|Wi-Fi
+|`prefs:root=WIFI`
+
+|===
+
+
 == Utilities
 * List all installed applications and their appUrls: `https://github.com/wujianguo/iOSAppsInfo`
 
