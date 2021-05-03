@@ -1001,6 +1001,7 @@ These links point to specific sections of the `Settings.app`
 
 - https://ios.gadgethacks.com/news/always-updated-list-ios-app-url-scheme-names-0184033/
 - https://github.com/phynet/iOS-URL-Schemes
+- https://github.com/FifiTheBulldog/ios-settings-urls
 - http://x-callback-url.com/apps/
 - https://app-talk.com/
 
