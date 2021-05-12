@@ -1032,6 +1032,7 @@ These links point to specific sections of the `Settings.app`
 - https://github.com/FifiTheBulldog/ios-settings-urls
 - http://x-callback-url.com/apps/
 - https://app-talk.com/
+- https://www.appsight.io/
 
 
 *{sp} - (empty as of now)
