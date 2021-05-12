@@ -255,6 +255,14 @@ toc::[]
 |`com.popcap.ios.BejBlitz://` or `com.popcap.ios.BejBlitz.From.Bej3://` or `com.popcap.ios.BejBlitz.From.Bej2://` or `ea850758://` or `ea47862://`
 |
 
+|Blind
+|`teamblind://`
+|
+
+|Bloomberg
+|`bloomberg://`
+|
+
 |Brushstroke 
 |`brushstroke://`
 |
@@ -270,6 +278,10 @@ toc::[]
 |Cash App 
 |`squarecash://` or `cashme://`
 |
+
+|Castro
+|`castro2://` or internal podcast deep-link UUID like `castro2://podcast/19d759ce-5a6b-43ef-b7b2-39469df85f47`
+|For iTunes IDs: https://blog.supertop.co/post/170848224642/a-podcast-url-scheme
 
 |CityMapper 
 |`citymapper://directions?startcoord=<lat>,<lon>&startname=<name>&startaddress=<address>&endcoord=<lat>,<lon>&endname=<name>&endaddress=<address>`
@@ -315,12 +327,20 @@ toc::[]
 |`fandango://`
 |
 
+|Fantastical
+|`fantastical://` or `fantastical2://`
+|See full options under "URL Handler" https://flexibits.com/fantastical-iphone/faq 
+
 |Fitbit 
 |`fitbit://`
 |
 
 |Flickr 
 |`flickr://`
+|
+
+|Forest
+|`forest://`
 |
 
 |Gboard 
@@ -423,6 +443,10 @@ toc::[]
 |`instagram-stories://share`
 |https://developers.facebook.com/docs/instagram/sharing-to-stories/
 
+|Instapaper
+|`instapaper://`
+|
+
 |LastPass Password Manager 
 |`lastpass://`
 |
@@ -449,7 +473,7 @@ toc::[]
 
 |Overcast 
 |`overcast://`
-|
+|https://overcast.fm/podcasterinfo
 
 |PayPal: Mobile Cash 
 |`paypal://`
@@ -493,6 +517,10 @@ toc::[]
 
 |Steller 
 |`steller://`
+|
+
+|SleepTown
+|`sleeptown://`
 |
 
 |Tumblr
@@ -1004,6 +1032,7 @@ These links point to specific sections of the `Settings.app`
 - https://github.com/FifiTheBulldog/ios-settings-urls
 - http://x-callback-url.com/apps/
 - https://app-talk.com/
+- https://www.appsight.io/
 
 
 *{sp} - (empty as of now)
