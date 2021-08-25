@@ -82,6 +82,10 @@ toc::[]
 |`fmip1://`
 |
 
+|Files 
+|`shareddocuments://`
+|
+
 |Game Center 
 |`gamecenter://` or `itms-gc://` or `itms-gcs://` (pre-iOS 11)
 |
