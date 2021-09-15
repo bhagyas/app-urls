@@ -181,62 +181,6 @@ toc::[]
 |`App-prefs://` or `App-prefs:` or `prefs://` or `prefs:` or `prefs:root`
 |
 
-|Settings ⇾ General ⇾ Profiles
-|`prefs:root=General&path=ManagedConfigurationList`
-|
-
-|Settings ⇾ General ⇾ Reset
-|`prefs:root=General&path=Reset`
-|
-
-|Settings ⇾ Health
-|`prefs:root=HEALTH`
-|
-
-|Settings ⇾ iCloud
-|`prefs:root=CASTLE`
-|
-
-|Settings ⇾ iCloud Backup
-|`prefs:root=CASTLE&path=BACKUP`
-|
-
-|Settings ⇾ Mail
-|`prefs:root=MAIL`
-|
-
-|Settings ⇾ Mail ⇾ Preview
-|`prefs:root=MAIL&path=Preview`
-|
-
-|Settings ⇾ Mail ⇾ Swipe Options
-|`prefs:root=MAIL&path=Swipe%20Options`
-|
-
-|Settings ⇾ Mail ⇾ Notifications
-|`prefs:root=MAIL&path=NOTIFICATIONS`
-|
-
-|Settings ⇾ Mail ⇾ Blocked
-|`prefs:root=MAIL&path=Blocked`
-|
-
-|Settings ⇾ Mail ⇾ Muted Thread Action
-|`prefs:root=MAIL&path=Muted%20Thread%20Action`
-|
-
-|Settings ⇾ Mail ⇾ Blocked Sender Options
-|`prefs:root=MAIL&path=Blocked%20Sender%20Options`
-|
-
-|Settings ⇾ Mail ⇾ Mark Addresses
-|`prefs:root=MAIL&path=Mark%20Addresses`
-|
-
-|Settings ⇾ Mail ⇾ Increase Quote Level
-|`prefs:root=MAIL&path=Increase%20Quote%20Level`
-|
-
 |Settings ⇾ Mail ⇾ Include Attachments with Replies
 |`prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
 |
