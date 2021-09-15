@@ -415,6 +415,7 @@ toc::[]
 
 |Settings ⇾ Mail ⇾ Include Attachments with Replies
 |`prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+|
 
 |Settings ⇾ Mail ⇾ Signature
 |`prefs:root=MAIL&path=Signature`
