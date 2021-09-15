@@ -227,6 +227,7 @@ toc::[]
 
 |Settings ⇾ Calendar ⇾ Default Alert Times
 |`prefs:root=CALENDAR&path=Default%20Alert%20Times`
+|
 
 |Settings ⇾ Calendar ⇾ Default Calendar
 |`prefs:root=CALENDAR&path=Default%20Calendar`
