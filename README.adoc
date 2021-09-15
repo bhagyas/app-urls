@@ -181,14 +181,6 @@ toc::[]
 |`App-prefs://` or `App-prefs:` or `prefs://` or `prefs:` or `prefs:root`
 |
 
-|Settings ⇾ Accessibility
-|`prefs:root=ACCESSIBILITY`
-|
-
-|Settings ⇾ Apple Pencil (iPad-only)
-|`prefs:root=Pencil`
-|
-
 |Settings ⇾ App Store
 |`prefs:root=STORE`
 |
@@ -1088,6 +1080,9 @@ These links point to specific sections of the `Settings.app`
 | Description | AppURL
 
 | Open | `App-prefs://`       `App-prefs:`       `prefs://` `prefs:`       `prefs:root`
+
+|Accessibility
+|`prefs:root=ACCESSIBILITY`
 
 |Apple Pencil (iPad-only)
 |`prefs:root=Pencil`
