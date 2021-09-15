@@ -22,8 +22,7 @@ toc::[]
 | 
 
 |Apple Music
-|`music://` or `musics://`
-|`audio-player-event://`
+|`music://` or `musics://` or `audio-player-event://`
 |
 
 |Apple News 
