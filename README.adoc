@@ -21,6 +21,9 @@ toc::[]
 |`itms-apps://itunes.apple.com`
 | 
 
+|Apple Music
+|`music://` or `musics://` or `audio-player-event://`
+|
 
 |Apple News 
 |`applenews://` or `applenewss://`
@@ -36,6 +39,10 @@ toc::[]
 
 |App Store (Top Charts) 
 |`itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&popId=30`
+|
+
+|App Store (Udpates) 
+|`itms-apps://itunes.apple.com/updates`
 |
 
 |Apple TV 
@@ -154,7 +161,7 @@ toc::[]
 |`x-apple-reminder://`
 |
 
-|Safari 
+|Safari (Search)
 |`x-web-search://`
 |
 
@@ -171,7 +178,7 @@ toc::[]
 |
 
 |Settings 
-|`App-prefs://`
+|`App-prefs://` or `App-prefs:` or `prefs://` or `prefs:` or `prefs:root`
 |
 
 |Shortcuts 
@@ -578,6 +585,9 @@ These links point to specific sections of the `Settings.app`
 
 | Open | `App-prefs://`       `App-prefs:`       `prefs://` `prefs:`       `prefs:root`
 
+|Accessibility
+|`prefs:root=ACCESSIBILITY`
+
 |Apple Pencil (iPad-only)
 |`prefs:root=Pencil`
 
@@ -639,7 +649,7 @@ These links point to specific sections of the `Settings.app`
 |`prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE`
 
 |Compass
-|`prefs:root=COMPASS`
+|`prefs:root=COMPASS` (iPhone only)
 
 |Contacts
 |`prefs:root=CONTACTS`
@@ -730,6 +740,7 @@ These links point to specific sections of the `Settings.app`
 
 |General - Keyboard - Keyboards
 |`prefs:root=General&path=Keyboard/KEYBOARDS`
+|
 
 |General - Keyboard - One Handed Keyboard
 |`prefs:root=General&path=Keyboard/ReachableKeyboard`
@@ -1027,7 +1038,7 @@ These links point to specific sections of the `Settings.app`
 
 
 == AppURL Utilities
-* List all installed applications and their appUrls: `https://github.com/wujianguo/iOSAppsInfo`
+* List all installed applications and their appUrls: `https://github.com/wujianguo/iOSAppsInfo` (hasn't been updated in 5 years)
 
 == References and Additional resources
 
