@@ -740,7 +740,7 @@ These links point to specific sections of the `Settings.app`
 
 |General - Keyboard - Keyboards
 |`prefs:root=General&path=Keyboard/KEYBOARDS`
-|
+
 
 |General - Keyboard - One Handed Keyboard
 |`prefs:root=General&path=Keyboard/ReachableKeyboard`
