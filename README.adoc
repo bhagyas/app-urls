@@ -358,6 +358,10 @@ toc::[]
 |`gboard://`
 |
 
+|Genshin Impact
+|`yuanshengame://`
+|
+
 |Github 
 |`github://`
 |
@@ -442,6 +446,10 @@ toc::[]
 |`hyperlapse://`
 |
 
+|IFTTT
+|`ifttt://`
+|
+
 |IMDb Movies & TV 
 |`imdb://`
 |
@@ -470,12 +478,20 @@ toc::[]
 |`litely://`
 |
 
+|Lovense Remote
+|`wear://`
+|
+
 |Messenger 
 |`fb-messenger://`
 |
 
 |MoviePass 
 |`moviepass://`
+|
+
+|myQ
+|`myliftmaster://`
 |
 
 |Netflix 
