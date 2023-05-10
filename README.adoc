@@ -101,6 +101,11 @@ toc::[]
 |`garageband://`
 |
 
+|Headspace
+| `headspace://`
+|
+
+
 |iBooks 
 |`ibooks://` or `itms-books://` or `itms-bookss://`
 |
