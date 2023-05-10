@@ -894,6 +894,8 @@ These links point to specific sections of the `Settings.app`
 |Notifications - Siri Suggestions
 |`prefs:root=NOTIFICATIONS_ID&path=Siri%20Suggestions`
 
+|Passwords
+|`prefs:root=PASSWORDS` (iOS) or `x-apple.systempreferences:com.apple.Passwords-Settings.extension`(macOS)
 |Passwords & Accounts
 |`prefs:root=ACCOUNTS_AND_PASSWORDS`
 |Passwords & Accounts - Fetch New Data
