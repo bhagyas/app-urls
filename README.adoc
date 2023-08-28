@@ -351,6 +351,10 @@ toc::[]
 |`fitbit://`
 |
 
+|Fleapa 
+|`fleapa://`
+|
+
 |Flickr 
 |`flickr://`
 |
