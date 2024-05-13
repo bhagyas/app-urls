@@ -531,6 +531,10 @@ toc::[]
 |`pyto-run://`
 |
 
+|Rivian 
+|`rivian://`
+|
+
 |Signal - Private Messenger 
 |`sgnl://`
 |
@@ -557,6 +561,10 @@ toc::[]
 
 |SleepTown
 |`sleeptown://`
+|
+
+|Tesla 
+|`tesla://`
 |
 
 |Tumblr
