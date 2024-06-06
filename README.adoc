@@ -567,6 +567,10 @@ toc::[]
 |`tesla://`
 |
 
+|Things
+|`things://`
+|URL Scheme Documentation - https://culturedcode.com/things/support/articles/2803573/
+
 |Tumblr
 |`tumblr://`
 |
