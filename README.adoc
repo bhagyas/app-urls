@@ -25,6 +25,9 @@ toc::[]
 |`music://` or `musics://` or `audio-player-event://`
 |
 
+|Apple Music Classical
+|`classical://`
+
 |Apple News 
 |`applenews://` or `applenewss://`
 |
