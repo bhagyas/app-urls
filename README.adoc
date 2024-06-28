@@ -487,6 +487,10 @@ toc::[]
 |`launch://`
 |
 
+|LinkedIn
+|`linkedin://`
+|
+
 |Litely 
 |`litely://`
 |
@@ -509,6 +513,10 @@ toc::[]
 
 |Netflix 
 |`nflx://`
+|
+
+|Omnifocus
+|`omnifocus://`
 |
 
 |Overcast 
