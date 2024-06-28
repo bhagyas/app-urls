@@ -27,6 +27,7 @@ toc::[]
 
 |Apple Music Classical
 |`classical://`
+|
 
 |Apple News 
 |`applenews://` or `applenewss://`
