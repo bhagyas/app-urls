@@ -339,6 +339,10 @@ toc::[]
 |`evernote://x-callback-url/[action]?[action parameters]&[x-callback parameters]`
 |https://github.com/evernote/evernote-ios-x-callback-url
 
+|Eufy Security
+|`eufysecurity://`
+|
+
 |Facebook 
 |`fb://`
 |
