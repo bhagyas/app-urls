@@ -271,6 +271,10 @@ toc::[]
 |`anchorfm://` or `anchorfmspotify://`
 |
 
+|Bambu Handy
+|`bambulab://`
+|
+
 |Bejeweled Blitz 
 |`com.popcap.ios.BejBlitz://` or `com.popcap.ios.BejBlitz.From.Bej3://` or `com.popcap.ios.BejBlitz.From.Bej2://` or `ea850758://` or `ea47862://`
 |
