@@ -73,6 +73,10 @@ toc::[]
 |`diagnostics://` or `diags://`
 |
 
+|Dictionary
+|`dict://`
+|
+
 |FaceTime (Audio) 
 |`facetime-audio://phoneoremail` or `facetime-audio-prompt://phoneoremail`
 |
