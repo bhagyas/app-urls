@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+
+<article lang="en">
+<articleinfo>
+    <title>AppURLs</title>
+    <author>
+        <firstname>A long list of application urls for iOS, macOS and Android*</firstname>
+    </author>
+    <authorinitials>A</authorinitials>
+</articleinfo>
+<simpara>Feel free to make pull requests or file an issue with new app URLs that you want to contribute.</simpara>
+<section id="_apple_services">
+<title>Apple Services</title>
+<informaltable
+frame="all"
+rowsep="1" colsep="1"
+>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33*"/>
+<colspec colname="col_2" colwidth="33*"/>
+<colspec colname="col_3" colwidth="33*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Application/Service</simpara></entry>
+<entry align="left" valign="top"><simpara>AppURL</simpara></entry>
+<entry align="left" valign="top"><simpara>Notes</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Apple News</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>applenews://</literal> or <literal>applenewss://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms-apps://itunes.apple.com</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Apple Music</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>music://</literal> or <literal>musics://</literal> or <literal>audio-player-event://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Apple News</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>applenews://</literal> or <literal>applenewss://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms-apps://itunes.apple.com</literal> (add /app/id for specific apps)</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store (Search)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&amp;term=</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store (Top Charts)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36&amp;popId=30</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store (Udpates)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms-apps://itunes.apple.com/updates</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Apple TV</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>videos://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Calendar</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>calshow://</literal> or <literal>x-apple-calevent://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Calendar (Add Calendar)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>webcal://suscribelinkforcalendar</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Clips</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>clips://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Contacts</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>contacts://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Diagnostics</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>diagnostics://</literal> or <literal>diags://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>FaceTime (Audio)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>facetime-audio://phoneoremail</literal> or <literal>facetime-audio-prompt://phoneoremail</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>FaceTime (Video)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>facetime://phoneoremail</literal> or <literal>facetime-prompt://phoneoremail</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Feedback</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>applefeedback://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Find My Friends</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>findmyfriends://</literal> or <literal>fmf1://</literal> or <literal>grenada://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Find My iPhone</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fmip1://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Files</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>shareddocuments://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Game Center</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>gamecenter://</literal> or <literal>itms-gc://</literal> or <literal>itms-gcs://</literal> (pre-iOS 11)</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>GarageBand</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>garageband://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Headspace</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>headspace://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iBooks</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>ibooks://</literal> or <literal>itms-books://</literal> or <literal>itms-bookss://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iCloud Drive</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>appleiclouddrive:// (pre-iOS 11)</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iMovie</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>imovie://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iTunes Remote</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>remote://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iTunes Store</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms://</literal> or <literal>itmss://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iTunes U</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms-itunesu://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Maps</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>map://</literal> or <literal>maps://</literal> or <literal>mapitem://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>message://</literal> or <literal>mailto://emailaddress</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Messages</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>sms://phonenumber</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>mobilenotes://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Phone</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>tel://phonenumber</literal> or <literal>telprompt://phonenumber</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Photos</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>photos-redirect://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Podcasts (Add Feed By URL)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>feed://</literal> or <literal>podcast://</literal> (you can also add a feed URL after to auto-populate it)</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Podcasts (Browse)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>pcast://</literal> or <literal>itms-pcast://</literal> or <literal>itms-pcasts://</literal> or <literal>podcasts://</literal> or <literal>itms-podcast://</literal> or <literal>itms-podcasts://</literal> (displays a "can&#8217;t connect" error)</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Reminders</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>x-apple-reminder://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari (Search)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>x-web-search://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari (FTP)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>ftp://locationtofileonftpserver</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari (HTTP)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>http://websiteurl</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari (HTTPS)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>https://websiteurl</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Settings</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>App-prefs://</literal> or <literal>App-prefs:</literal> or <literal>prefs://</literal> or <literal>prefs:</literal> or <literal>prefs:root</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Shortcuts</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>shortcuts://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Voice Memos</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>voicememos://</literal> (could work in the Notification Center)</simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Wallet</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>shoebox://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Watch</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>itms-watch:// or itms-watchs://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Workflow</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>workflow://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Workflow (Create Workflow)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>workflow://create-workflow</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Workflow (Open Workflow)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>workflow://open-workflow?name=name</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Workflow (Run Workflow)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>workflow://run-workflow?name=name&amp;input=input</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Workflow (Open Gallery)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>workflow://gallery</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Workflow (Search Gallery)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>workflow://gallery/search?query=query</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section id="_third_party_apps_amp_services">
+<title>Third-Party Apps &amp; Services</title>
+<informaltable
+frame="all"
+rowsep="1" colsep="1"
+>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33*"/>
+<colspec colname="col_2" colwidth="33*"/>
+<colspec colname="col_3" colwidth="33*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Application/Service</simpara></entry>
+<entry align="left" valign="top"><simpara>AppURL</simpara></entry>
+<entry align="left" valign="top"><simpara>Notes</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>1Password</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>onepassword://search/{query}</literal></simpara></entry>
+<entry align="left" valign="top"><simpara><ulink url="https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md">https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>1Password Browser</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>ophttp://{url}</literal></simpara></entry>
+<entry align="left" valign="top"><simpara><ulink url="https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md">https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Achievement - Reward Health</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>achievement://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Age of Solitaire : Build City</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fb1431194636974533://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>AMC Theatres</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>amc://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Alpha Omega</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fb1414385748867269suffix://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>AmpliFi WiFi</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fb1761190244145574amplifi://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Ancestry</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>ancestry://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Anchor</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>anchorfm://</literal> or <literal>anchorfmspotify://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Bejeweled Blitz</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>com.popcap.ios.BejBlitz://</literal> or <literal>com.popcap.ios.BejBlitz.From.Bej3://</literal> or <literal>com.popcap.ios.BejBlitz.From.Bej2://</literal> or <literal>ea850758://</literal> or <literal>ea47862://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Blind</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>teamblind://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Bloomberg</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>bloomberg://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Brushstroke</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>brushstroke://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Cake Browser</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>cakeslice://</literal> or <literal>havecake://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Camera+</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>cameraplus://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Cash App</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>squarecash://</literal> or <literal>cashme://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Castro</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>castro2://</literal> or internal podcast deep-link UUID like <literal>castro2://podcast/19d759ce-5a6b-43ef-b7b2-39469df85f47</literal></simpara></entry>
+<entry align="left" valign="top"><simpara>For iTunes IDs: <ulink url="https://blog.supertop.co/post/170848224642/a-podcast-url-scheme">https://blog.supertop.co/post/170848224642/a-podcast-url-scheme</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>CityMapper</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>citymapper://directions?startcoord=&lt;lat&gt;,&lt;lon&gt;&amp;startname=&lt;name&gt;&amp;startaddress=&lt;address&gt;&amp;endcoord=&lt;lat&gt;,&lt;lon&gt;&amp;endname=&lt;name&gt;&amp;endaddress=&lt;address&gt;</literal></simpara></entry>
+<entry align="left" valign="top"><simpara><ulink url="http://blog.citymapper.com/post/59578777734/launching-citymapper-directions-from-apps-and-the">http://blog.citymapper.com/post/59578777734/launching-citymapper-directions-from-apps-and-the</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Clash of Clans</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>clashofclans://</literal> or <literal>wxfa242abf8cdd841a://</literal> or <literal>tencent1105771533://</literal> or <literal>tencentlaunch1105771533://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>DoorDash - Food Delivery</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>doordash://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Draw Something</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fb225826214141508paid://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>DropBox</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>dbapi-1://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>DuckDuckGo Privacy Browser</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>ddgLaunch://</literal> or <literal>ddgQuickLink://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Duolingo</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>duolingo://</literal> or <literal>com.duolingo.DuolingoMobile</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Evernote</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>evernote://x-callback-url/[action]?[action parameters]&amp;[x-callback parameters]</literal></simpara></entry>
+<entry align="left" valign="top"><simpara><ulink url="https://github.com/evernote/evernote-ios-x-callback-url">https://github.com/evernote/evernote-ios-x-callback-url</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Facebook</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fb://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Facetune</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>facetune://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Fandango</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fandango://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Fantastical</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fantastical://</literal> or <literal>fantastical2://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara>See full options under "URL Handler" <ulink url="https://flexibits.com/fantastical-iphone/faq">https://flexibits.com/fantastical-iphone/faq</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Fitbit</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fitbit://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Fleapa</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fleapa://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Flickr</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>flickr://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Forest</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>forest://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Gboard</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>gboard://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Genshin Impact</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>yuanshengame://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Github</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>github://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Gmail - Email by Google</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googlegmail://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Goodreads: Book Reviews</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>goodreads://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>google://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Assistant</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googleassistant://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Calendar</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googlecalendar://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Docs</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googledocs:// or googledocs-v2:// or com.google.sso.263492796725://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Chrome</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googlechrome://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Drive</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googledrive://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Earth</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googleearth:// or comgoogleearth://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Keep</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>comgooglekeep://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Maps - GPS Navigation</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googlemaps://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Photos</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googlephotos://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Sheets</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googlesheets://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Translate</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googletranslate://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Google Voice</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>googlevoice://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Halide Camera</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>halide://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>HBO GO</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>hbogo://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>HBO NOW</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>hbonow://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Hulu: Watch TV Shows &amp; Movies</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>hulu://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Hyperlapse from Instagram</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>hyperlapse://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>IFTTT</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>ifttt://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>IMDb Movies &amp; TV</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>imdb://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Instagram</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>instagram://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara><ulink url="https://www.instagram.com/developer/mobile-sharing/iphone-hooks/">https://www.instagram.com/developer/mobile-sharing/iphone-hooks/</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Instagram Stories</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>instagram-stories://share</literal></simpara></entry>
+<entry align="left" valign="top"><simpara><ulink url="https://developers.facebook.com/docs/instagram/sharing-to-stories/">https://developers.facebook.com/docs/instagram/sharing-to-stories/</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Instapaper</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>instapaper://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>LastPass Password Manager</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>lastpass://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Launch Center Pro</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>launch://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Litely</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>litely://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Lovense Remote</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>wear://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Messenger</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>fb-messenger://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>MoviePass</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>moviepass://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>myQ</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>myliftmaster://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Netflix</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>nflx://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Overcast</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>overcast://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara><ulink url="https://overcast.fm/podcasterinfo">https://overcast.fm/podcasterinfo</ulink></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>PayPal: Mobile Cash</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>paypal://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>PhotoScan by Google Photos</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>photoscan://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Pinterest</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>pinterest://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Plex</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>plex://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Pyto</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>pyto-run://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Signal - Private Messenger</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>sgnl://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Skype for iPhone</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>skype://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Snapchat</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>snapchat://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Speedtest by Ookla</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>speedtest://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Spotify Music</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>spotify://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Steller</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>steller://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>SleepTown</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>sleeptown://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Tumblr</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>tumblr://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Twitch</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>twitch://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Twitter</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>twitter://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>TweetBot for Twitter</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>tweetbot://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Vimeo</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>vimeo://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>VLC</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>vlc://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>VSCO</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>vsco://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Waze Navigation &amp; Live Traffic</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>waze://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>WhatsApp Messenger</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>whatsapp://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>YouTube: Watch, Listen, Stream</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>youtube://</literal></simpara></entry>
+<entry align="left" valign="top"><simpara></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section id="_settings_app_preferences">
+<title>Settings.app (Preferences)</title>
+<simpara>These links point to specific sections of the <literal>Settings.app</literal></simpara>
+<informaltable
+frame="all"
+rowsep="1" colsep="1"
+>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Description</simpara></entry>
+<entry align="left" valign="top"><simpara>AppURL</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Open</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>App-prefs://</literal>       <literal>App-prefs:</literal>       <literal>prefs://</literal> <literal>prefs:</literal>       <literal>prefs:root</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Accessibility</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=ACCESSIBILITY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Apple Pencil (iPad-only)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Pencil</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=STORE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store - App Downloads</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=STORE&amp;path=App%20Downloads</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>App Store - Video Autoplay</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=STORE&amp;path=Video%20Autoplay</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Battery</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=BATTERY_USAGE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Battery - Battery Health (iPhone-only)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=BATTERY_USAGE&amp;path=BATTERY_HEALTH</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Bluetooth</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Bluetooth</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Books</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=IBOOKS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Calendar</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CALENDAR</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Calendar - Alternate Calendars</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CALENDAR&amp;path=Alternate%20Calendars</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Calendar - Default Alert Times</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CALENDAR&amp;path=Default%20Alert%20Times</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Calendar - Default Calendar</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CALENDAR&amp;path=Default%20Calendar</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Calendar - Sync</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CALENDAR&amp;path=Sync</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Camera</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CAMERA</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Camera - Record Slo-mo</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CAMERA&amp;path=Record%20Slo-mo</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Camera - Record Video</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CAMERA&amp;path=Record%20Video</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Cellular</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MOBILE_DATA_SETTINGS_ID</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Cellular - Cellular Data Options</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MOBILE_DATA_SETTINGS_ID&amp;path=CELLULAR_DATA_OPTIONS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Cellular - Low Data Mode</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MOBILE_DATA_SETTINGS_ID&amp;path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Cellular - App Data Usage</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MOBILE_DATA_SETTINGS_ID#APP_DATA_USAGE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Compass</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=COMPASS</literal> (iPhone only)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Contacts</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CONTACTS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Control Center</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=ControlCenter</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Control Center - Customize Controls</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=ControlCenter&amp;path=CUSTOMIZE_CONTROLS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Display</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=DISPLAY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Display - Auto Lock</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=DISPLAY&amp;path=AUTOLOCK</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Display - Text Size</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=DISPLAY&amp;path=TEXT_SIZE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Do Not Disturb</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=DO_NOT_DISTURB</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Do Not Disturb - Allow Calls From</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=DO_NOT_DISTURB&amp;path=Allow%20Calls%20From</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Emergency SOS</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=EMERGENCY_SOS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Exposure Notifications</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=EXPOSURE_NOTIFICATION</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Face ID</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=PASSCODE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>FaceTime</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=FACETIME</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Game Center</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=GAMECENTER</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - About</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=About</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - About - Certificate Trust Settings</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=About/CERT_TRUST_SETTINGS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - AirDrop</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=AIRDROP_LINK</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - AirPlay &amp; Handoff</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=CONTINUITY_SPEC</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - AirPlay &amp; Handoff - Handoff</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=CONTINUITY_SPEC#CONTINUITY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - AirPlay &amp; Handoff - Automatically AirPlay to TVs</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=CONTINUITY_SPEC#AIRPLAY_TO_TV</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - AirPlay &amp; Handoff - Transfer to HomePod</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Background App Refresh</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=AUTO_CONTENT_DOWNLOAD</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - CarPlay</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=CARPLAY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Date &amp; Time</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=DATE_AND_TIME</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Dictionary</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=DICTIONARY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Home Button</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=HOME_BUTTON</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - iPhone Storage</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=STORAGE_MGMT#MANAGE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - iPhone Storage - Offload Unused Apps</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=STORAGE_MGMT#OFFLOAD</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Keyboard</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Keyboard</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Keyboard - Keyboards</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Keyboard/KEYBOARDS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Keyboard - One Handed Keyboard</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Keyboard/ReachableKeyboard</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Keyboard - Text Replacement</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Keyboard/USER_DICTIONARY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Language &amp; Region</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=INTERNATIONAL</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Legal &amp; Regulatory</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=LEGAL_AND_REGULATORY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Multitasking (iPad-only)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=MULTITASKING</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Multitasking (iPad-only)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General#Multitasking_Gesture_Switch</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Picture in Picture</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=PiP_SPEC</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Profiles</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=ManagedConfigurationList</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Regulatory</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=REGULATORY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Reset All Settings</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#settingsErase</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Erase All Content and Settings</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#fullErase</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Reset Network Settings</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#RESET_NETWORK_LABEL</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Reset All Cellular Plans</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#cellularErase</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Subscriber Services</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#SUBSCRIBER_SERVICES_ID</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Reset Keyboard Dictionary</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Reset Home Screen Layout</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#RESET_ICONS_LABEL</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Reset - Reset Location &amp; Privacy</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=Reset#RESET_PRIVACY_LABEL</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Shut Down</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General#SHUTDOWN_LABEL</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Software Update</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=SOFTWARE_UPDATE_LINK</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Trackpad &amp; Mouse (iPad-only)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=POINTERS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - TV Out</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=TV_OUT</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - Use Side Switch To</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General#Rotation_Switch_Action_Group</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General - VPN</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=VPN</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>General (Unknown Path)</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=NFC_LINK</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Health</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=HEALTH</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iCloud</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CASTLE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>iCloud Backup</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=CASTLE&amp;path=BACKUP</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Blocked</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Blocked</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Blocked Sender Options</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Blocked%20Sender%20Options</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Default Account</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Default%20Account</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Include Attachments with Replies</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Include%20Attachments%20with%20Replies</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Increase Quote Level</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Increase%20Quote%20Level</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Mark Addresses</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Mark%20Addresses</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Muted Thread Action</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Muted%20Thread%20Action</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Notifications</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=NOTIFICATIONS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Preview</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Preview</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Signature</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Signature</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Mail - Swipe Options</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAIL&amp;path=Swipe%20Options</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Maps</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAPS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Maps - Driving &amp; Navigation</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAPS&amp;path=Driving%20%26%20Navigation</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Maps - Transit</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MAPS&amp;path=Transit</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Measure</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MEASURE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Messages</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MESSAGES</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Music</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MUSIC</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Music - Cellular Data</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MUSIC&amp;path=com.apple.Music:CellularData</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Music - EQ</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MUSIC&amp;path=com.apple.Music:EQ</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Music - Optimize Storage</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MUSIC&amp;path=com.apple.Music:OptimizeStorage</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Music - Volume Limit</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=MUSIC&amp;path=com.apple.Music:VolumeLimit</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>News</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NEWS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes - Access Notes from Lock Screen</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES&amp;path=Access%20Notes%20from%20Lock%20Screen</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes - Default Account</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES&amp;path=Default%20Account</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes - Lines &amp; Grids</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES&amp;path=Lines%20%26%20Grids</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes - New Notes Start With</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES&amp;path=New%20Notes%20Start%20With</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes - Password</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES&amp;path=Password</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes - Sort Checked Items</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES&amp;path=Sort%20Checked%20Items</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notes - Sort Notes By</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTES&amp;path=Sort%20Notes%20By</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notifications</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTIFICATIONS_ID</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Notifications - Siri Suggestions</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=NOTIFICATIONS_ID&amp;path=Siri%20Suggestions</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Passwords</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=PASSWORDS</literal> (iOS) or <literal>x-apple.systempreferences:com.apple.Passwords-Settings.extension</literal>(macOS)</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Passwords &amp; Accounts</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=ACCOUNTS_AND_PASSWORDS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Passwords &amp; Accounts - Fetch New Data</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=ACCOUNTS_AND_PASSWORDS&amp;path=FETCH_NEW_DATA</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Passwords &amp; Accounts - Add Account</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=ACCOUNTS_AND_PASSWORDS&amp;path=ADD_ACCOUNT</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Personal Hotspot</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=INTERNET_TETHERING</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Personal Hotspot - Family Sharing</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=INTERNET_TETHERING&amp;path=Family%20Sharing</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Personal Hotspot - Wi-Fi Password</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=INTERNET_TETHERING&amp;path=Wi-Fi%20Password</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Phone</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Phone</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Photos</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Photos</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Contacts</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=CONTACTS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Calendars</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=CALENDARS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Camera</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=CAMERA</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Location Services</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=LOCATION</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Microphone</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=MICROPHONE</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Motion</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=MOTION</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Photos</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=PHOTOS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Reminders</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=REMINDERS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Privacy - Speech Recognition</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Privacy&amp;path=SPEECH_RECOGNITION</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Reminders</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=REMINDERS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Reminders - Default List</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=REMINDERS&amp;path=DEFAULT_LIST</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Ringtone</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Sounds&amp;path=Ringtone</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Camera</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Camera</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Close Tabs</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Close%20Tabs</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Content Blockers</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Content%20Blockers</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Downloads</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=DOWNLOADS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Location</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Location</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Microphone</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Microphone</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Page Zoom</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Page%20Zoom</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Reader</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Reader</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Safari - Request Desktop Website</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SAFARI&amp;path=Request%20Desktop%20Website</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Screen Time</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SCREEN_TIME</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Screen Time - Always Allowed</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SCREEN_TIME&amp;path=ALWAYS_ALLOWED</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Screen Time - App Limits</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SCREEN_TIME&amp;path=APP_LIMITS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Screen Time - Communication Limits</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SCREEN_TIME&amp;path=COMMUNICATION_LIMITS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Screen Time - Content &amp; Privacy Restrictions</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SCREEN_TIME&amp;path=CONTENT_PRIVACY</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Screen Time - Downtime</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SCREEN_TIME&amp;path=DOWNTIME</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Shortcuts</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SHORTCUTS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Shortcuts - iCloud Sync</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SHORTCUTS#WFCloudKitSyncEnabled</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Shortcuts - iCloud Sync</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Shortcuts - Legal Notices</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SHORTCUTS&amp;path=Legal%20Notices</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Allow Siri When Locked</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Language</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI&amp;path=LANGUAGE_ID</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Siri Voice</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI&amp;path=VOICE_ID</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Siri Responses</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI&amp;path=VOICE_FEEDBACK_ID</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - My Information</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI&amp;path=MY_INFO</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Suggestions in Search</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI#Suggestions%20in%20Search</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Suggestions while Searching</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI#Suggestions%20while%20Searching</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Suggestions in Look Up</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI#Suggestions%20in%20Look%20Up</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Suggestions on Lock Screen</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI#Suggestions%20on%20Lock%20Screen</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Suggestions on Home Screen</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI#Suggestions%20on%20Home%20Screen</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Siri &amp; Search - Suggestions when Sharing</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=SIRI#Suggestions%20when%20Sharing</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Sounds</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Sounds</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Stocks</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=STOCKS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Stocks - Privacy</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=STOCKS#Privacy</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Stocks - Reset Identifier</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=STOCKS#reset_identifier</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>TV</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=TVAPP</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>TV - Use Cellular Data</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>TV - Playback Quality</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>TV - Video Definition</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=TVAPP&amp;path=com.apple.videos%3APreferredPurchaseResolution</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>TV - Home Sharing</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>TV Provider</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs-tvprovider://</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Voice Memos</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=VOICE_MEMOS</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>VPN</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=General&amp;path=VPN</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Wallet</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=PASSBOOK</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Wallpaper</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=Wallpaper</literal></simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Wi-Fi</simpara></entry>
+<entry align="left" valign="top"><simpara><literal>prefs:root=WIFI</literal></simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section id="_appurl_utilities">
+<title>AppURL Utilities</title>
+<itemizedlist>
+<listitem>
+<simpara>
+List all installed applications and their appUrls: <literal>https://github.com/wujianguo/iOSAppsInfo</literal> (NOTE: Original repository does not seem to be maintained any further.)
+</simpara>
+</listitem>
+</itemizedlist>
+</section>
+<section id="_references_and_additional_resources">
+<title>References and Additional resources</title>
+<itemizedlist>
+<listitem>
+<simpara>
+<ulink url="https://ios.gadgethacks.com/news/always-updated-list-ios-app-url-scheme-names-0184033/">https://ios.gadgethacks.com/news/always-updated-list-ios-app-url-scheme-names-0184033/</ulink>
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+<ulink url="https://github.com/phynet/iOS-URL-Schemes">https://github.com/phynet/iOS-URL-Schemes</ulink>
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+<ulink url="https://github.com/FifiTheBulldog/ios-settings-urls">https://github.com/FifiTheBulldog/ios-settings-urls</ulink>
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+<ulink url="http://x-callback-url.com/apps/">http://x-callback-url.com/apps/</ulink>
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+<ulink url="https://app-talk.com/">https://app-talk.com/</ulink>
+</simpara>
+</listitem>
+<listitem>
+<simpara>
+<ulink url="https://www.appsight.io/">https://www.appsight.io/</ulink>
+</simpara>
+</listitem>
+</itemizedlist>
+<simpara>*  - (empty as of now)</simpara>
+</section>
+</article>
