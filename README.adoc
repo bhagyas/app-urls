@@ -315,6 +315,10 @@ toc::[]
 |`clashofclans://` or `wxfa242abf8cdd841a://` or `tencent1105771533://` or `tencentlaunch1105771533://`
 |
 
+|Discogs 
+|`discogs://` or `com.Discogs.App://`
+|
+
 |DoorDash - Food Delivery 
 |`doordash://`
 |
