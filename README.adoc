@@ -180,11 +180,11 @@ toc::[]
 
 |Safari (HTTP) 
 |`http://websiteurl`
-|
+This is not really accurate. Opens default browser. |
 
 |Safari (HTTPS) 
 |`https://websiteurl`
-|
+This is not really accurate. Opens default browser. |
 
 |Settings 
 |`App-prefs://` or `App-prefs:` or `prefs://` or `prefs:` or `prefs:root`
