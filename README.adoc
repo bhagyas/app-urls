@@ -587,6 +587,10 @@ toc::[]
 |`sleeptown://`
 |
 
+|Streets
+|`streets://`
+|https://www.futuretap.com/api/streets
+
 |Tesla 
 |`tesla://`
 |
@@ -630,6 +634,10 @@ toc::[]
 |WhatsApp Messenger 
 |`whatsapp://`
 |
+
+|Where To? 
+|`whereto://`
+|https://www.futuretap.com/api/whereto
 
 |YouTube: Watch, Listen, Stream 
 |`youtube://`
