@@ -343,6 +343,10 @@ toc::[]
 |`eufysecurity://`
 |
 
+|Excel
+|`excel://`
+|
+
 |Facebook 
 |`fb://`
 |
@@ -523,8 +527,16 @@ toc::[]
 |`nflx://`
 |
 
+|Nextcloud
+|`nextcloud://`
+|
+
 |Omnifocus
 |`omnifocus://`
+|
+
+|OneNote
+|`onenote://`
 |
 
 |Overcast 
@@ -547,6 +559,10 @@ toc::[]
 |`plex://`
 |
 
+|PowerPoint
+|`powerpoint://`
+|
+
 |Pyto 
 |`pyto-run://`
 |
@@ -561,6 +577,10 @@ toc::[]
 
 |Signal - Private Messenger 
 |`sgnl://`
+|
+
+|Sketchbook
+|`sketchbook://`
 |
 
 |Skype for iPhone 
@@ -590,6 +610,7 @@ toc::[]
 |Streets
 |`streets://`
 |https://www.futuretap.com/api/streets
+
 
 |Tesla 
 |`tesla://`
@@ -638,6 +659,10 @@ toc::[]
 |Where To? 
 |`whereto://`
 |https://www.futuretap.com/api/whereto
+
+|Word
+|`word://`
+|
 
 |YouTube: Watch, Listen, Stream 
 |`youtube://`
