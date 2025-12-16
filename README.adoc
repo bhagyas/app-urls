@@ -21,6 +21,10 @@ toc::[]
 |`itms-apps://itunes.apple.com`
 | 
 
+|Apple Weather
+|`weather://`
+|Currently unknown if you can use url schemes for weather app to link to locations - Discussed on Reddit https://www.reddit.com/r/iphonehelp/comments/1dzw5yb/comment/lt4sk7w/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
 |Apple Music
 |`music://` or `musics://` or `audio-player-event://`
 |
