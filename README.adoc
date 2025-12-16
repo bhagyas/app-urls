@@ -624,6 +624,10 @@ toc::[]
 |`things://`
 |URL Scheme Documentation - https://culturedcode.com/things/support/articles/2803573/
 
+|TomTom Go
+|`tomtomgo://`
+|To navigate to a coordinate: `tomtomgo://x-callback-url/navigate?destination={lat},{long}`
+
 |Tumblr
 |`tumblr://`
 |
