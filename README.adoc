@@ -160,7 +160,7 @@ toc::[]
 
 |Passwords 
 |`otpauth-migration://` or `apple-otpauth-migration://`
-|This apple-otpauth:// popups up the "Add Verification Code" page. This otpauth:apple:// will take to you some passwords saved with "apple" in the title. Same with otpauth:google:// for "google" . I haven't dont much testing with this yet. I see things like otpauth:amazon:// and otpauth:twitter:// don't the same way.
+|This `apple-otpauth://` popups up the "Add Verification Code" page. This `otpauth:apple://` will take to you some passwords saved with "apple" in the title. Same with `otpauth:google://` for "google" . Though things like `otpauth:amazon://` and `otpauth:twitter://` don't the same way.
 
 |Phone 
 |`tel://phonenumber` or `telprompt://phonenumber`
