@@ -628,6 +628,10 @@ toc::[]
 |`tesla://`
 |
 
+|Textastic
+|`textastic://`
+|URL Scheme Documentation - https://www.textasticapp.com/v10/manual/integration_other_apps/x-callback-url.html
+
 |Things
 |`things://`
 |URL Scheme Documentation - https://culturedcode.com/things/support/articles/2803573/
@@ -679,6 +683,10 @@ toc::[]
 |Word
 |`word://`
 |
+
+|Working Copy
+|`working-copy://`
+|URL Scheme Documentation - https://workingcopyapp.com/url-schemes.html
 
 |YouTube: Watch, Listen, Stream 
 |`youtube://`
