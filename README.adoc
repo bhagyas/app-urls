@@ -299,6 +299,10 @@ toc::[]
 |`brushstroke://`
 |
 
+|Brave
+|`brave://open-url?url=`
+|urlencode the URL to be opened
+
 |Cake Browser 
 |`cakeslice://` or `havecake://`
 |
@@ -374,6 +378,14 @@ toc::[]
 |Fantastical
 |`fantastical://` or `fantastical2://`
 |See full options under "URL Handler" https://flexibits.com/fantastical-iphone/faq 
+
+|Firefox
+|`firefox://open-url?url=`
+|urlencode the URL to be opened. Append `&private=true` to open in a private tab
+
+|Firefox Focus
+|`firefox-focus://open-url?url=`
+|urlencode the URL to be opened. Append `&private=true` to open in a private tab
 
 |Fitbit 
 |`fitbit://`
