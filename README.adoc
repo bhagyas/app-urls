@@ -295,6 +295,10 @@ toc::[]
 |`bloomberg://`
 |
 
+|Brave
+|`brave://open-url?url=`
+|Urlencode the URL to be opened
+
 |Brushstroke 
 |`brushstroke://`
 |
@@ -374,6 +378,14 @@ toc::[]
 |Fantastical
 |`fantastical://` or `fantastical2://`
 |See full options under "URL Handler" https://flexibits.com/fantastical-iphone/faq 
+
+|Firefox
+|`firefox://open-url?url=`
+|Urlencode the URL to be opened. Append `&private=true` to open in a private tab
+
+|Firefox Focus
+|`firefox-focus://open-url?url=`
+|Urlencode the URL to be opened. Append `&private=true` to open in a private tab
 
 |Fitbit 
 |`fitbit://`
