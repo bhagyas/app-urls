@@ -27,7 +27,7 @@ toc::[]
 
 |Apple Music
 |`music://` or `musics://` or `audio-player-event://`
-|
+|Any `music.apple.com` (or `classical.music.apple.com`) link works by switching out `https` with `music`/`musics` (e.g. <https://music.apple.com/playlist/pl.567c541f63414e798be5cf214e155557> -> `music://music.apple.com/playlist/pl.567c541f63414e798be5cf214e155557`). `playlist/pl.<playlist-id>`, `song/<song-id>` (credits), `album/<album-id>[?i=<song-id>]` (album, optionally highlighting a specific song on the album), `station/ra.<station-id>`, `profile/<user-id>`, and `music-video/<video-id>` all are valid to occur after `music.apple.com/`. `song-id`, `video-id` and `album-id` are numeric values, and `playlist-id` and `station-id` are alphanumeric and may include hyphens.
 
 |Apple Music Classical
 |`classical://`
