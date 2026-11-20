@@ -611,6 +611,10 @@ toc::[]
 |`fb1675493782511558://`
 |
 
+|Reuters
+|`tr-news://`
+|
+
 |Rivian 
 |`rivian://`
 |
